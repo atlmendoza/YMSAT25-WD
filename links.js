@@ -1,7 +1,6 @@
 //names of the image files
 var links = new Array();
-links[0]={section:"9K",title:"Pearls of the Orient",url:"https://cs3-q2-project.jinimartini.repl.co/",icon:"Nikon-D750-Image-Samples-2.png
-"}
+links[0]={section:"9K",title:"Effects of Online and In-Person Classes to Students",url:"https://cs3qtr1projectestrella-lim.zacestrella.repl.co/htdocs/effectstoStudents.html",icon:"sample.png"}
 links[1]={section:"9K",title:"Effects of Online and In-Person Classes to Students",url:"https://cs3qtr1projectestrella-lim.zacestrella.repl.co/htdocs/effectstoStudents.html",icon:"estralllim.png"}
 links[2]={section:"9K",title:"Hybe Biy Group Guide",url:"https://cs3project.nia-angelaangel.repl.co/",icon:"hybe.png"}
 links[3]={section:"9K",title:"Minecraft Guide",url:"https://sizzlingunfoldeddiscussion.lino-domingo-salvana.repl.co/index.html",icon:"minecraft.png"}
@@ -16,7 +15,7 @@ function dispProj(){
 	var x;
 	var genNum=[];
 	var numProj = Math.floor(Math.random() * links.length);
-	for (i=0;i<links.length;i++) {	
+	for (let i=0;i<links.length;i++) {	
 		// update list of used number
 		genNum.push(numProj);
 		// check if the generated random number is already used.	
@@ -31,16 +30,17 @@ function dispProj(){
 	}
   // construct content of the body
 	var tobeDisp = ""
-	for (i=0;i<links.length;i++) {
+	for (let i=0;i<links.length;i++) {
 	    tobeDisp +=	 
 			'<div class="gallery">'+
 			'<a target="_blank" href="' + links[genNum[i]].url +'">'+
-			'<div> <img src="img\\wd\\'+links[genNum[i]].icon +'" /></div>'+
-		   	'<div class="desc"><span>'+links[genNum[i]].title+'</span></div>'+
+			'<div> <img src="img\\'+links[genNum[i]].icon +'" /></div>'+
+		   	'<div class="desc"><span>'+links[genNum[i]].title+'</span>'+
+                        '<p>'+links[genNum[i]].title+'</p></div>'+
 			'</a></div>'
 	}
 		
 document.getElementById("pHolder").innerHTML = tobeDisp;
-	myVar = setTimeout(dispProj, 20000);
+	let myVar = setTimeout(dispProj, 20000);
 }
 	
