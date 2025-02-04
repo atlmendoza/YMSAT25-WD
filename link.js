@@ -65,7 +65,7 @@ function dispProj(){
 	    tobeDisp +=	 
 			'<div class="gallery">'+
 			'<a target="_blank" href="' + links[genNum[i]].url +'">'+
-			'<div><img src="img\\wd\\'+links[genNum[i]].icon +'" /> </div>'+
+			'<div> <img src="img\\wd\\'+links[genNum[i]].icon +'" /></div>'+
 		   	'<div class="desc"><span>'+links[genNum[i]].title+'</span></div>'+
 			'</a></div>'
 	}
