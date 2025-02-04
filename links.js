@@ -1,6 +1,7 @@
 //names of the image files
 var links = new Array();
-links[0]={section:"9K",title:"Pearls of the Orient",url:"https://cs3-q2-project.jinimartini.repl.co/",icon:"plogo.png"}
+links[0]={section:"9K",title:"Pearls of the Orient",url:"https://cs3-q2-project.jinimartini.repl.co/",icon:"Nikon-D750-Image-Samples-2.png
+"}
 links[1]={section:"9K",title:"Effects of Online and In-Person Classes to Students",url:"https://cs3qtr1projectestrella-lim.zacestrella.repl.co/htdocs/effectstoStudents.html",icon:"estralllim.png"}
 links[2]={section:"9K",title:"Hybe Biy Group Guide",url:"https://cs3project.nia-angelaangel.repl.co/",icon:"hybe.png"}
 links[3]={section:"9K",title:"Minecraft Guide",url:"https://sizzlingunfoldeddiscussion.lino-domingo-salvana.repl.co/index.html",icon:"minecraft.png"}
