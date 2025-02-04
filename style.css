@@ -106,7 +106,7 @@ div.gallery img {
 }
 
 div.gallery img:hover {
-   opacity: 0.5
+   opacity: 0.25
 }
 
 div.desc {
@@ -118,13 +118,14 @@ div.desc {
   margin-top: 5px;
   z-index: -1;
 }
-div.desc > span  {
-  font-size: 1.25rem;
+div.desc > p  {
+  color: black;
+  padding: 2px;
 }
-
 a {
   text-decoration: none;
-  font-weight: bold; color:  #85c1ff; 
+  /*font-weight: bold; */
+  color:  #85c1ff; 
   text-shadow: 2px 2px 2px rgba(0,0,0,0.38);
 }
 
@@ -165,6 +166,7 @@ div.content > p, h2, div.content > div {
 
 div.content > div {
   display: flex;
+  margin-left: 10%;
 }
 div.tgallery {
   width: 25%;
