@@ -1,6 +1,7 @@
 //names of the image files
 var links = new Array();
-links[0]={section:"9Cs",title:"ArtWalli",desc:"",url:"https://pih-rah-tees.github.io/wdprojcesiumpanistetangco/public",icon:"sample.png",by:"panis&tetangco"}
+links[0]={section:"9K",title:"ArtWalli",desc:"",url:"https://pih-rah-tees.github.io/wdprojcesiumpanistetangco/public",icon:"sample.png",by:"panis&tetangco"}
+links[0]={section:"9Cs",title:"ArtWalli",desc:"",url:"https://sarbuyco.github.io/Ciphermania/public",icon:"sample.png",by:"buyco&cruz"}
 
 
 function dispProj(){
