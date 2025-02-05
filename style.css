@@ -19,7 +19,7 @@ div.main {
 
 #vote {
   width: 95%;
-  margin: 3% 0;
+  margin: 3% auto;
 	box-sizing: border-box;  /* includes the border and padding in the width and height */
 }
 
