@@ -67,10 +67,14 @@ links[26]={section:"9Mg",title:"Heartspire",
 	desc:"At Heartspire Foundation, we believe in the extraordinary power of empathy to transform lives and build a better world.", 
 	url:"https://christiansolidum.github.io/project-proposal-cs3--solidum-sulicipan/", 
 	icon:"mg-christian_von-heartspire.png",by:"Christian&Von"}	
-links[27]={section:"9Mg",title:"Stick Chase",
+links[27]={section:"9Be",title:"Stick Chase",
 	desc:"A game to erase the stickman", 
 	url:"https://wdprojberylliumaducalaguda.glitch.me/index.html", 
 	icon:"aducal.png",by:"Aducal"}	
+links[28]={section:"9Be",title:"DubiDubiTapTap",
+	desc:"DubiDubiTapTap is a website that contains simple, fun, and accessible offline games. “Dubi” is short for “digital buddy", 
+	url:"https://wdprojberylliumbaguioreblorasalvador.glitch.me/", 
+	icon:"iesu.png",by:"iesu&2more"}	
 
 function dispProj(){
 	var x;
