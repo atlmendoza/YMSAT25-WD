@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="author" content="Jeremiah P. Rahon and Gabriel Z. Leona">
+  <meta name="description" content="Tips on exercising">
+  <meta name="keywords" content="Arms, core">
+  <link rel="icon" type="image/png" href="https://cdn.glitch.global/c0873f2e-b79f-46b0-a20b-862544cb88c1/favicon.png?v=1734711589143">
+  <title>Home - Body BluePrint</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Body BluePrint</h1>
+        <p>Your guide to efficient body training</p>
+        <a href="index.html" class="home-button"><img src="https://cdn.glitch.global/aeac68f4-299e-49a8-8ae9-ffe57677ff33/icons8-dumbbell-30.png?v=1738673713652" alt="Description of image"></a> <!-- Home Button -->
+    </header>
+    
+
+    <main>
+        <p>Click on a body part to explore training tips:</p>
+
+        <!-- Body Map Image -->
+        <div style="position: relative;">
+            <img src="https://cdn.glitch.global/c0873f2e-b79f-46b0-a20b-862544cb88c1/body-map.jpg?v=1734711587134" alt="Interactive Body Map" class="body-map">
+            
+            <!-- Clickable Links -->
+            <a href="arms.html" class="link arm-link">Arms</a>
+            <a href="core.html" class="link core-link">Core</a>
+            <a href="legs.html" class="link legs-link">Legs</a>
+        </div>
+
+        <!-- BMI Calculator -->
+        <div class="bmi-calculator">
+            <h3>BMI Calculator</h3>
+            <input type="number" id="weight" placeholder="Enter your weight (kg)">
+            <input type="number" id="height" placeholder="Enter your height (cm)">
+            <button onclick="calculateBMI()">Calculate BMI</button>
+            <div id="bmi-result" class="bmi-result"></div>
+        </div>
+        <h3>References</h3>
+        <p>
+          human body muscles - Bing. (n.d.). Retrieved from. Bing. <a href="http://bit.ly/4gzt6kW"http://bit.ly/4gzt6kW target="_blank">http://bit.ly/4gzt6kW</a>
+        </p>
+        <p>
+          Dumbbell favicon Icons, Logos, Symbols – Free Download PNG, SVG. (n.d.). <a href="https://icons8.com/icons/set/dumbbell-favicon">https://icons8.com/icons/set/dumbbell-favicon </a>
+      </p>      
+    </main>
+    <footer>
+        <p>© 2024 LEONA | RAHON</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

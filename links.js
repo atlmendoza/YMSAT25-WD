@@ -8,6 +8,12 @@ links[4]={section:"9Cs",title:"Cherry On Top",desc:"Cherry on Top is an interact
 links[5]={section:"9Cs",title:"FitFormula",desc:"FitFormula,  is designed to help users start and go through their excercise and fitness experience by providing calculation tools,  plans according to the user's fitness situation, and other pages.",url:"https://elijahandrei.github.io/Q3DimayugaMasangkayProject/public/index.html",icon:"cs1219.png",by:"dimayuga&msangkay"}
 links[6]={section:"9Cs",title:"Music from Mars",desc:"All about Bruno Mars and his music", url:"https://ralffytulfo.github.io/wdprojsectionsanjoseandmendozav1/public/index.html",icon:"cs2127.png",by:"sanjose&mendoza"}
 links[7]={section:"9Cs",title:"Solidarity Network",desc:"Our website effectively aids the extension of monetary donations to the innocent victims of war, by compiling all their respective donation links into one webpage, allowing for a more convenient transaction.", url:"https://aypltra.github.io/solidarity-nework/public/",icon:"cs0322.png",by:"alcantara&moritcho"}
+links[8]={section:"9Sr",title:"SPARC",
+	desc:"SPARChives is the online platform of SPARC used to store and access reviewers, mock tests, and other resources of SPARC.", 
+	url:"https://mathematicalcoder.github.io/sparchives/public/",icon:"sr-kaiser-sparc.png",by:"Kaiser&Schiel"}
+links[9]={section:"9Sr",title:"Body Blueprint",
+		desc:"The purpose of this website is to map the body and navigate body parts to find out the most efficient way to train them by setting out a body map and by clicking one body part and show the most efficient ways to train them.", 
+		url:"sr-rahon-body_blueprint/",icon:"sr-rahon-body.png",by:"Rahon&Leona"}
 
 
 function dispProj(){

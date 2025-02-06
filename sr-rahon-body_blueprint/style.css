@@ -1,0 +1,122 @@
+ body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #f7f9fc, #e1ebf5);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 2rem 1rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+main {
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+
+ footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.body-map {
+    width: 60%; /* Adjusted size to make the image smaller */
+    max-width: 500px; /* Optional: Limit the maximum width */
+    height: auto; /* Maintain the aspect ratio */
+    border: 2px solid #ccc; /* Optional: Add a border for better aesthetics */
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow */
+}
+
+.link {
+  position: absolute;
+  display: block;
+  background-color: rgba(0, 123, 255, 0.6);
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 5px 10px;
+}
+
+.link:hover {
+  background-color: rgba(0, 86, 179, 0.8);
+}
+
+.legs-link {
+  top: 53%; /* Adjusted for legs */
+  left: 50%; /* Centered horizontally */
+  transform: translateX(-350%); /* Center the element */
+}
+.arm-link {
+  top: 22%; /* Adjusted for arms */
+  left: 50%; /* Centered horizontally */
+  transform: translateX(-370%); /* Center the element */
+}
+
+.core-link {
+  top: 40%; /* Adjusted for core */
+  left: 50%; /* Centered horizontally */
+  transform: translateX(-287%); /* Center the element */
+}
+
+
+.bmi-calculator {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bmi-calculator input {
+  margin: 5px 0;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.bmi-calculator button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bmi-calculator button:hover {
+  background-color: #0056b3;
+}
+
+.bmi-result {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #333;
+}
+.home-button {
+    position: absolute; /* Keeps the button fixed in position */
+    top: 10px; /* Position from the top */
+    left: 10px; /* Position from the left */
+    padding: 10px 20px; /* Button padding */
+    background-color: #4CAF50; /* Button background color */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    font-family: Arial, sans-serif; /* Font style */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Font weight */
+}
+
+

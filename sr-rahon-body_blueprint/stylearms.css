@@ -1,0 +1,54 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f0f8ff, #cce7ff);
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+header {
+    background-color: #f76c6c;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.content {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+.content h2 {
+    color: #f76c6c;
+    font-size: 2rem;
+}
+.content p {
+    line-height: 1.6;
+    margin: 1rem 0;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color:#f76c6c;
+    color: white;
+}
+.home-button {
+    position: absolute; /* Keeps the button fixed in position */
+    top: 10px; /* Position from the top */
+    left: 10px; /* Position from the left */
+    padding: 10px 20px; /* Button padding */
+    color: white; /* Text color */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px; /* Rounded corners */
+    font-family: Arial, sans-serif; /* Font style */
+    font-size: 16px; /* Font size */
+    font-weight: bold; /* Font weight */
+}
+.training-image{
+  max-width:800px
+}
+.tricep{
+   width: 710px;
+   height: 322px;
+}
