@@ -23,9 +23,9 @@ links[11]={section:"9Li",title:"Modern Family",
 links[12]={section:"9Na",title:"Sinag ng Kalayaan",
 	desc:"Sinag ng Kalayaan: The Next Step is a thrilling interactive game that brings life the dramatic choices and consequences of the Spanish Colonial Era. ", 
 	url:"na-cara_rheena-sinag_kalayaan/",icon:"na-cara_rheena-sinag_kalayaan.png",by:"Cara&Rheena"}
-links[13]={section:"9Na",title:"Sinag ng Kalayaan",
+links[13]={section:"9Na",title:"Kanlungan",
 	desc:"kanlungan is a safe space 'shelter' dedicated for people who might be lost in their pathway of life. adorned in charming digital artwork and led by the fictional shapeshifting cat, Miskonasia, the website holds several little ephemeras in the daily — helpful quotes for the day with an originally written poem in the side, a post-it note station as fleeting as you allow it to be, and a bit of an 'achievements' section dictated by the amount of days you log in. ", 
-	url:"li-rio_zach-modern_fam/",icon:"na-cara_rheena-sinag_kalayaan.png",by:"Cara&Rheena"}
+	url:"na-esquivel_villasfer-kanlungan/",icon:"na-esquivel_villasfer-kanlungan.png",by:"Elisha&Sammy"}
 links[14]={section:"9K",title:"The Ciphermind",
 		desc:"PuzzledYou is our website about our own developed personality types with a theme of puzzles and word games.", 
 		url:"https://mads-avant.github.io/avante-balingit-potassium-project-draft/public/",icon:"k0204.png",by:"avante&balingit"}
@@ -41,6 +41,10 @@ links[17]={section:"9K",title:"QuizQuest",
 links[18]={section:"9K",title:"",
     desc:"Meya’s Vogue is a nostalgic Y2K fashion inspired website where you can complete tasks, dress up, and look through our gallery with pre-made outfits for inspiration", 
     url:"https://finalproj-calo-luquias.glitch.me",icon:"k0621.png",by:"calo&luquias"}
+links[19]={section:"9K",title:"Alter the World",
+	desc:"Welcome to To Alter the World! A comprehensive website dedicated to exploring the world of geometric transformations in math, including translation, rotation, and dilation.", 
+	url:"na-matt_lewis-translation/",icon:"na-matt_lewis-translation.png",by:"Matt&Lewis"}
+
 
 
 
