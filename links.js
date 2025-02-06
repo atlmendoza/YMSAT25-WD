@@ -41,10 +41,6 @@ links[17]={section:"9K",title:"QuizQuest",
 links[18]={section:"9K",title:"",
     desc:"Meya’s Vogue is a nostalgic Y2K fashion inspired website where you can complete tasks, dress up, and look through our gallery with pre-made outfits for inspiration", 
     url:"https://finalproj-calo-luquias.glitch.me",icon:"k0621.png",by:"calo&luquias"}
-links[19]={section:"9K",title:"Alter the World",
-	desc:"Welcome to To Alter the World! A comprehensive website dedicated to exploring the world of geometric transformations in math, including translation, rotation, and dilation.", 
-	url:"na-matt_lewis-translation/",icon:"na-matt_lewis-translation.png",by:"Matt&Lewis"}
-
 links[19]={section:"9Rb",title:"Dress the Best",
     desc:"Dress the Best! Create your own characters and make them say anything!", 
     url:"https://wdprojrubidiumhutallapuga.glitch.me/index.html",icon:"hutalla.png",by:"hutalla"}
@@ -60,7 +56,9 @@ links[22]={section:"9Rb",title:"CATACLYSIM",
 links[23]={section:"9Rb",title:"Innerself Explorer",
     desc:"InnerSelf Explorer is an interactive platform offering engaging personality quizzes that provide fun, personalized insights with dynamic feedback and shareable results.", 
     url:"https://9rb-aguilar-pascual-projprop.glitch.me/index.html",icon:"rb0122.png",by:"aguilar&pascual"}
-
+links[24]={section:"9K",title:"Alter the World",
+	desc:"Welcome to To Alter the World! A comprehensive website dedicated to exploring the world of geometric transformations in math, including translation, rotation, and dilation.", 
+	url:"na-matt_lewis-translation/",icon:"na-matt_lewis-translation.png",by:"Matt&Lewis"}
 
 
 function dispProj(){
