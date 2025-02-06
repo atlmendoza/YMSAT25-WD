@@ -26,6 +26,21 @@ links[12]={section:"9Na",title:"Sinag ng Kalayaan",
 links[13]={section:"9Na",title:"Sinag ng Kalayaan",
 	desc:"kanlungan is a safe space 'shelter' dedicated for people who might be lost in their pathway of life. adorned in charming digital artwork and led by the fictional shapeshifting cat, Miskonasia, the website holds several little ephemeras in the daily — helpful quotes for the day with an originally written poem in the side, a post-it note station as fleeting as you allow it to be, and a bit of an 'achievements' section dictated by the amount of days you log in. ", 
 	url:"li-rio_zach-modern_fam/",icon:"na-cara_rheena-sinag_kalayaan.png",by:"Cara&Rheena"}
+links[14]={section:"9K",title:"The Ciphermind",
+		desc:"PuzzledYou is our website about our own developed personality types with a theme of puzzles and word games.", 
+		url:"https://mads-avant.github.io/avante-balingit-potassium-project-draft/public/",icon:"k0204.png",by:"avante&balingit"}
+links[15]={section:"9K",title:"Featured Sets",
+    desc:"Our website, made by Enzo Edles and Fred Calitis helps people expand their imagination through the connection of bricks of different shapes and sizes to recreate structures or let their creativity go wild.", 
+    url:"https://wdprojpotassiumcalitis-edles.glitch.me",icon:"k0511.png",by:"edles&calitis"}
+links[16]={section:"9K",title:"CampusCalc",
+    desc:"CampusCalc is an all-in-one platform that helps students effortlessly calculate their GWA/GPA, matchmake universities, and explore universities through its matchmaking and discovery tools in a user-friendly interface", 
+    url:"https://wdprojpotassiumvibalignacio.glitch.me/",icon:"k1730.png",by:"vibals&ignacio"}
+links[17]={section:"9K",title:"QuizQuest",
+    desc:"QuizQuest is an interactive trivia game where players can test their knowledge across various categories like history, science, and pop culture full of engaging questions and included with a timer, users can compete for the highest score while tracking their progress on the leaderboard.", 
+    url:"https://lazaro-csproject.glitch.me/index.html",icon:"k19.png",by:"lazaro"}
+links[18]={section:"9K",title:"",
+    desc:"Meya’s Vogue is a nostalgic Y2K fashion inspired website where you can complete tasks, dress up, and look through our gallery with pre-made outfits for inspiration", 
+    url:"https://finalproj-calo-luquias.glitch.me",icon:"k0621.png",by:"calo&luquias"}
 
 
 
