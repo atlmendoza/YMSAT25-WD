@@ -74,7 +74,7 @@ links[27]={section:"9Be",title:"Stick Chase",
 links[28]={section:"9Be",title:"DubiDubiTapTap",
 	desc:"DubiDubiTapTap is a website that contains simple, fun, and accessible offline games. “Dubi” is short for “digital buddy", 
 	url:"https://wdprojberylliumbaguioreblorasalvador.glitch.me/", 
-	icon:"iesu.png",by:"iesu&2more"}	
+	icon:"iesu.png",by:"baguio&reblora&salvador"}	
 
 function dispProj(){
 	var x;
