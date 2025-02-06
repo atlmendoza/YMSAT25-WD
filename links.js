@@ -41,6 +41,21 @@ links[17]={section:"9K",title:"QuizQuest",
 links[18]={section:"9K",title:"",
     desc:"Meya’s Vogue is a nostalgic Y2K fashion inspired website where you can complete tasks, dress up, and look through our gallery with pre-made outfits for inspiration", 
     url:"https://finalproj-calo-luquias.glitch.me",icon:"k0621.png",by:"calo&luquias"}
+links[19]={section:"9Rb",title:"Dress the Best",
+    desc:"Dress the Best! Create your own characters and make them say anything!", 
+    url:"https://wdprojrubidiumhutallapuga.glitch.me/index.html",icon:"hutalla.png",by:"hutalla"}
+links[20]={section:"9Rb",title:"WindBreaker",
+    desc:"WindBreaker.fandom is a fan made website engineered to bring the readers of the Wind Breaker webtoon closer to its world. ", 
+    url:"https://wdprojrubidiummaniagorequioma.glitch.me/index.html",icon:"rb1824.png",by:"edles&calitis"}
+links[21]={section:"9Rb",title:"Mystwood Mysteries",
+    desc:"A mysterious game where players get to step into the shoes of a detective to solve crime cases where they will embark on three challenges levels (Easy, Medium, and Hard) and each one will make them unravel the hidden secrets and piece together cryptic clues.", 
+    url:"https://mikanono21.github.io/wdprojrubidiumnonosantos/public/",icon:"rb2127.png",by:"santos&nono"}
+links[22]={section:"9Rb",title:"CATACLYSIM",
+    desc:"Discover the dangers of disasters in the Philippines and the world.", 
+    url:"https://wdprojrubidiumcanlassigua.glitch.me/index.html",icon:"rb2805.png",by:"canlas&sigua"}
+links[23]={section:"9Rb",title:"Innerself Explorer",
+    desc:"InnerSelf Explorer is an interactive platform offering engaging personality quizzes that provide fun, personalized insights with dynamic feedback and shareable results.", 
+    url:"https://9rb-aguilar-pascual-projprop.glitch.me/index.html",icon:"rb0122.png",by:"aguilar&pascual"}
 
 
 
