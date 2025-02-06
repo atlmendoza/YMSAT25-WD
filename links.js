@@ -56,9 +56,17 @@ links[22]={section:"9Rb",title:"CATACLYSIM",
 links[23]={section:"9Rb",title:"Innerself Explorer",
     desc:"InnerSelf Explorer is an interactive platform offering engaging personality quizzes that provide fun, personalized insights with dynamic feedback and shareable results.", 
     url:"https://9rb-aguilar-pascual-projprop.glitch.me/index.html",icon:"rb0122.png",by:"aguilar&pascual"}
-links[24]={section:"9K",title:"Alter the World",
+links[24]={section:"9Na",title:"Alter the World",
 	desc:"Welcome to To Alter the World! A comprehensive website dedicated to exploring the world of geometric transformations in math, including translation, rotation, and dilation.", 
 	url:"na-matt_lewis-translation/",icon:"na-matt_lewis-translation.png",by:"Matt&Lewis"}
+links[25]={section:"9Mg",title:"Click Civilization",
+	desc:"This website contains fun minigames and applications all about clicking!", 
+	url:"https://rajveermadrid.github.io/WDProjMagnesiumLopingcoMadrid/public/index.html", 
+	icon:"mg-rajveer_cait-click_civ.png",by:"Rajveer&Cait"}	
+links[26]={section:"9Mg",title:"Heartspire",
+	desc:"At Heartspire Foundation, we believe in the extraordinary power of empathy to transform lives and build a better world.", 
+	url:" https://christiansolidum.github.io/project-proposal-cs3--solidum-sulicipan/", 
+	icon:"mg-christian_von-heartspire.png",by:"Christian&Von"}	
 
 
 function dispProj(){
