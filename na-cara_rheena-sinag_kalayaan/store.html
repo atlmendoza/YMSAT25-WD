@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="author" content="PANGANIBAN, Rheena & VILLORENTE, Cara">
+    <meta name="description" content="">
+    <meta name="keywords" content="CS3, Project, Sodium, B2028">
+    <title> Store </title>
+    <link rel="icon" href="https://cdn.glitch.global/5edada09-dd92-4769-ac73-f04d37b4bcdc/logo -sinag ng kalayaan.webp?v=1734870499393" />
+    
+    <!-- The website stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- The website JavaScript file -->
+    <script src="store.js" defer></script>
+    
+  </head>
+ 
+  <body>
+    <header>
+      <div class="container"> 
+        <img src="https://cdn.glitch.global/b2be8c7f-3e83-4886-b299-a9365130e524/logo%20-sinag%20ng%20kalayaan.webp?v=1734789014152" alt="Logo" class="logo">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gamepage.html">Play</a></li>
+            <li><a href="instructions.html">Instructions</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="about.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    
+    <img src = "https://cdn.glitch.global/b2be8c7f-3e83-4886-b299-a9365130e524/image%20(5).png?v=1734863658247" alt="Store">
+    <h3>Store Guidelines: </h3>
+    <h4>Power-ups may only be bought by in-game currency. Currently your balance is: </h4> <h1 id="balance"></h1>
+    <h4>You may activate the power-ups in the gamepage. Press the buttons to purchase the items</h4>
+    <style> .resize-image {
+      width: 100px; /* Set the desired width */ 
+      height: auto; /* Maintain aspect ratio */ 
+      animation: scale 1.5s ease-in-out infinite;
+      } 
+      @keyframes scale {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.5); }
+    100% { transform: scale(1); }
+}
+      
+      .button{
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+    
+    <img class="resize-image" src="https://cdn.glitch.global/b2be8c7f-3e83-4886-b299-a9365130e524/image-removebg-preview%20(3).png?v=1734874547279" alt="Return Powerup"> <br> 
+    <button onclick="returnpu()" class="button"> Return Powerup </button> <br> <br> 
+    <img class="resize-image" src="https://cdn.glitch.global/b2be8c7f-3e83-4886-b299-a9365130e524/image-removebg-preview%20(1).png?v=1734874648943" alt="Foresee Powerup"> <br>
+    <button onclick="foresee()" class="button"> Foresee Powerup </button> <br> <br> 
+    <img class="resize-image" src="https://cdn.glitch.global/b2be8c7f-3e83-4886-b299-a9365130e524/image-removebg-preview%20(4).png?v=1734874699477" alt="Double Coins Powerup"> <br>
+    <button onclick="DoubCoin()" class="button"> Double Coins Powerup </button> <br> <br>
+    <img class="resize-image" src="https://cdn.glitch.global/b2be8c7f-3e83-4886-b299-a9365130e524/image-removebg-preview%20(2).png?v=1734874727597" alt="Better Option Hint"> <br>
+    <button onclick="betteropt()" class="button"> Better Option Hint Powerup </button> <br> <br> 
+    <img class="resize-image" src="https://cdn.glitch.global/b2be8c7f-3e83-4886-b299-a9365130e524/image-removebg-preview.png?v=1734874754136" alt="Eliminate One Option"> <br>
+    <button onclick="elimone()" class="button"> Eliminate One Option Powerup </button>
+
+   <!-- give more space to write -->
+    <br> <br> <br> 
+    
+  <footer>
+       <div class="container">
+          <img src = "https://cdn.glitch.global/b2be8c7f-3e83-4886-b299-a9365130e524/logo%20-sinag%20ng%20kalayaan.webp?v=1734789014152" alt="Logo">
+          
+
+    <!-- Navigation Links -->
+    <div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="credits.html">Credits</a></li>
+        <li><a href="citations.html">Citations </a></li>
+      </ul>
+    </div>
+
+  <!-- Copyright -->
+  <div class="copyright">
+    <p>&copy; 2024 Rheena Panganiban, Cara Villorente</p>
+  </div>
+         
+      </div>
+      
+  </footer>
+    
+  </body>
+
+
+</html>

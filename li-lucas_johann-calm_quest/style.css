@@ -1,0 +1,499 @@
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", sans-serif;
+  padding-top: 95px;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#home, .nav-drop, .nav-drop a, .nav, .a   {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0px;
+  color: black;
+  text-decoration: none;
+}
+
+/*nav bar*/
+
+#start {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px 20px 30px;
+  border: black solid 2px;
+  font-family: monospace;
+  transition: background-color .1s linear
+}
+
+#nav {
+  display: flex;
+  align-items: center;
+  font-family: monospace;
+  white-space: nowrap
+}
+
+nav {
+  width: 100%;
+  height: 95px;
+  background-color: #171616;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+#home {
+  color: white;
+  padding-left: 60px;
+  padding-right: 50px;
+}
+
+.nav {
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#none {
+  cursor: pointer;
+}
+
+.nav-drop {
+  color: white;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.dropdown-list {
+  background-color: #171616;
+  padding: 0px 0px 25% 30%;
+  width: 140px;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity .2s linear, padding-top .2s linear;
+  pointer-events: none;
+}
+
+.dropdown-list a {
+  color: white;
+  font-family: monospace;
+  text-align: left;
+  padding: 5% 0px 5% 0%;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-list {
+  pointer-events: auto;
+  opacity: 1;
+  padding-top: 20px;
+}
+
+.underline {
+  background-color: white;
+  height: 4px; 
+  width: 0%;
+  border-radius: 2px;
+  transition: width .15s linear;
+}
+
+.dropdown-list a:hover .underline {
+  width: 29%;
+}
+
+svg {
+  padding: 4px;
+}
+
+polygon {
+  transition: transform 0.3s linear;
+  transform-origin: 50% 50%;
+}
+
+.dropdown:hover polygon {
+  transform: rotate(180deg);
+}
+
+/*index.html*/
+
+/*title screen*/
+
+#title {
+  text-align: center;
+  border: 0px solid black;
+  background-image: linear-gradient(to right, rgba(255,255,255, 0.4) 0 100%), url(https://cdn.glitch.global/c3f37ddd-cfc1-461f-9800-2a0e5b1063fc/f66f090e-94a1-4840-8706-6461ecff45c2.image.png?v=1733990396874);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+/*footer*/
+
+.footer {
+  font-family: monospace;
+  color: #5f5f5f;
+  width: 100%;
+  height: ;
+  display: flex;
+  background-color: #171616;
+}
+
+hr {
+  background-color: #5f5f5f; 
+  height: 1px; 
+  border: 0;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  width: 90%;
+  padding-right: 10%;
+}
+
+.footer div {
+  display: block;
+  font-family: monospace;
+  color: #5f5f5f;
+  width: 100%;
+  background-color: #171616;
+  padding-left: 6%;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  padding-right: 6%;
+}
+
+footer li {
+  margin: 6px;
+  background-color: #211d1d;
+  border-radius: 12px;
+  width: 32px;
+  height: 32px;
+}
+
+.sources li {
+  padding-bottom: 5px;
+}
+
+.sources {
+  justify-content: left;
+  display: block;
+}
+
+footer {
+  background-color: #0f0e0e;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around
+}
+
+.soc-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  text-decoration: none;
+  cursor: pointer;
+  height: 100%;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+/*section 1 - desc/survey*/
+
+.p1-sec1 {
+  background-color: #3E5879;
+  display: flex;
+  color: #F6F4F0;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.p1-sec1 div {
+  padding: 5% 0% 5% 0%;
+  text-align: left;
+  max-width: 520px;
+}
+
+#p1-sec1-content1 {
+  padding-left: 15%;
+  padding-right: 10%;
+}
+
+#p1-sec1-content2 {
+  display: block; 
+  padding-right: 15%;
+  padding-left: 10%;
+}
+
+#p1-sec1-content2 h3 {
+  background-color: white;
+  padding: 25px 60px 25px 60px;
+  font-family: monospace;
+  transition: background-color .1s linear;
+  margin-bottom: 0;
+}
+
+#p1-sec1-content2 div {
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  justify-content: center;
+  font-family: monospace;
+  transition: background-color .1s linear;
+}
+
+#start:hover, #p1-sec1-content2 h3:hover {
+  background-color: lightgrey;
+}
+
+/*games.html*/
+
+#p2-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #FFFDEC;
+  display: flex;
+  justify-content: center;
+}
+
+#p2-bg > div {
+  margin: 5% 5% 5% 5%;
+  width: 100%;
+  height: 80%;
+  background-color: ;
+}
+
+.game-container {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  color: black;
+  text-decoration: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.games {
+  color: white;
+  width: 100%;
+  min-height: 100px;
+  background-color: #4C585B;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 10px 20px 10px 20px;
+}
+
+.games > svg {
+  display: flex;
+}
+
+.game-info {
+  padding-left: 15px;
+  font-family: monospace;
+  display: block;
+}
+
+iframe {
+  z-index: 1;
+  position: fixed;
+  min-width: 100%;
+  height: 100%;
+  display: none;
+}
+
+#x {
+  position: fixed;
+  z-index: 2;
+  left: 15px;
+  top: 130px;
+  display: none;
+}
+
+.x {
+  background-color: white;
+  padding: 10px 15px 10px 15px;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  transition: background-color .1s linear;
+}
+
+.x:hover {
+  background-color: #cfcfcf;
+}
+
+#p3-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #181414;
+  display: flex;
+  justify-content: center;
+}
+
+#p3-bg > div {
+  margin: 3% 3% 3% 3%;
+  width: 100%;
+  height: 80%;
+}
+
+.music-container {
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  color: black;
+  text-decoration: none;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.music {
+  color: white;
+  width: 200px;
+  height: 350px;
+  background-color: #302c2c;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 10px 20px 10px 20px;
+  transition: box-shadow .05s linear;
+  margin-right: 3%;
+}
+
+.music:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, .3);
+}
+
+#jazz {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  background: url(https://cdn.glitch.global/c3f37ddd-cfc1-461f-9800-2a0e5b1063fc/getty_530406235_409211.jpg?v=1738685390141);
+  background-size: 355.5px 200px;
+  background-position: 30%;
+  transition: background .05s linear;
+}
+
+#jazz-tile:hover #jazz {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  background: url(https://cdn.glitch.global/c3f37ddd-cfc1-461f-9800-2a0e5b1063fc/jazz%20play.png?v=1738688474677);
+  background-size: 355.5px 200px;
+  background-position: 30%;
+}
+
+#classical {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  background: url(https://cdn.glitch.global/c3f37ddd-cfc1-461f-9800-2a0e5b1063fc/Classical-Music-violin.jpeg?v=1738686885881);
+  background-size: 300px 200px;
+  background-position: 30%;
+  transition: background .05s linear;
+}
+
+#classical-tile:hover #classical {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  width: 200px;
+  background: url(https://cdn.glitch.global/c3f37ddd-cfc1-461f-9800-2a0e5b1063fc/classical%20play.png?v=1738689364665);
+  background-size: 300px 200px;
+  background-position: 30%;
+}
+
+#classical-info {
+  padding-bottom: 31px;
+}
+
+.music-info {
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+}
+
+/*survey.html*/
+#stressForm {
+  width: 100%;
+  height: 100%;
+  background-color: #FFFDEC;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  flex-direction: column;
+  display:flex
+}
+
+#stressForm button{
+  background-color: white;
+  padding: 10px 40px 10px 40px;
+  font-family: "Trebuchet MS", sans-serif;
+  transition: background-color 0.5s linear;
+  margin-bottom: 4;
+}
+
+#stressForm button:hover {
+  background-color: lightgrey;
+}
+
+/*others.html*/
+
+#others-bg {
+  font-family: monospace;
+  background-color: #f5f5dc;
+  text-align: center;
+  padding: 20px;
+}
+
+.box {
+  background: #4C585B;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: white
+}
+
+.others-caption {
+  font-size: 14px;
+  color: white;
+  margin-top: 10px;
+}
+
+.thumbnail img{
+  width: 100%;
+  border-radius: 10px;
+  height: auto;
+}
