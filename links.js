@@ -65,9 +65,12 @@ links[25]={section:"9Mg",title:"Click Civilization",
 	icon:"mg-rajveer_cait-click_civ.png",by:"Rajveer&Cait"}	
 links[26]={section:"9Mg",title:"Heartspire",
 	desc:"At Heartspire Foundation, we believe in the extraordinary power of empathy to transform lives and build a better world.", 
-	url:" https://christiansolidum.github.io/project-proposal-cs3--solidum-sulicipan/", 
+	url:"https://christiansolidum.github.io/project-proposal-cs3--solidum-sulicipan/", 
 	icon:"mg-christian_von-heartspire.png",by:"Christian&Von"}	
-
+links[27]={section:"9Mg",title:"Stick Chase",
+	desc:"A game to erase the stickman", 
+	url:"https://wdprojberylliumaducalaguda.glitch.me/index.html", 
+	icon:"aducal.png",by:"Aducal"}	
 
 function dispProj(){
 	var x;
