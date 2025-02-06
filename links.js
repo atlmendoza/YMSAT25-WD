@@ -24,7 +24,7 @@ links[12]={section:"9Na",title:"Sinag ng Kalayaan",
 	desc:"Sinag ng Kalayaan: The Next Step is a thrilling interactive game that brings life the dramatic choices and consequences of the Spanish Colonial Era. ", 
 	url:"na-cara_rheena-sinag_kalayaan/",icon:"na-cara_rheena-sinag_kalayaan.png",by:"Cara&Rheena"}
 links[13]={section:"9Na",title:"Sinag ng Kalayaan",
-	desc:"kanlungan is a safe space "shelter" dedicated for people who might be lost in their pathway of life. adorned in charming digital artwork and led by the fictional shapeshifting cat, Miskonasia, the website holds several little ephemeras in the daily — helpful quotes for the day with an originally written poem in the side, a post-it note station as fleeting as you allow it to be, and a bit of an 'achievements' section dictated by the amount of days you log in. ", 
+	desc:"kanlungan is a safe space 'shelter' dedicated for people who might be lost in their pathway of life. adorned in charming digital artwork and led by the fictional shapeshifting cat, Miskonasia, the website holds several little ephemeras in the daily — helpful quotes for the day with an originally written poem in the side, a post-it note station as fleeting as you allow it to be, and a bit of an 'achievements' section dictated by the amount of days you log in. ", 
 	url:"li-rio_zach-modern_fam/",icon:"na-cara_rheena-sinag_kalayaan.png",by:"Cara&Rheena"}
 
 
