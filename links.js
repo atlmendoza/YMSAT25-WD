@@ -79,6 +79,10 @@ links[28]={section:"9Sr",title:"Battleship",
 	desc:"Welcome to Battleship! A classic game of strategy and luck, where players will try to sink each other's ships before their own ships are sunk.", 
 	url:"sr-don_rainer-battleship/", 
 	icon:"sr-don_rainer-battleship.png",by:"Don&Rainer"}	
+links[28]={section:"9Sr",title:"Chess",
+	desc:"A website where you can play and know the history and objectives about Chess.", 
+	url:"sr-sony_panis-chess/", 
+	icon:"sr-sony_panis-chess.png",by:"Sony&Panis"}	
 
 
 
