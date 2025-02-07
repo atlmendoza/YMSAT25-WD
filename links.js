@@ -75,7 +75,14 @@ links[28]={section:"9Be",title:"DubiDubiTapTap",
 	desc:"DubiDubiTapTap is a website that contains simple, fun, and accessible offline games. “Dubi” is short for “digital buddy", 
 	url:"https://wdprojberylliumbaguioreblorasalvador.glitch.me/", 
 	icon:"iesu.png",by:"baguio&reblora&salvador"}	
+links[28]={section:"9Sr",title:"Battleship",
+	desc:"Welcome to Battleship! A classic game of strategy and luck, where players will try to sink each other's ships before their own ships are sunk.", 
+	url:"sr-don_rainer-battleship/", 
+	icon:"sr-don_rainer-battleship.png",by:"Don&Rainer"}	
 
+
+
+	
 function dispProj(){
 	var x;
 	var genNum=[];
