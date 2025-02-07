@@ -95,7 +95,11 @@ links[33]={section:"9Li",title:"Digipop",
 	desc:"DigiPop is the ultimate digital playground where collectors can challenge themselves through fun mini-games to customize and unlock unique figurines like Smiskis and Mofusands, all designed by Lucille Marie Dalope and Francesca Carmen Bagnes of 9 - Lithium!", 
 	url:"li-lucille-digipop/", 
 	icon:"li-lucille-digipop.png",by:"Jamie&Maize"}	
-
+links[34]={section:"9Na",title:"Mobile Legends", 
+	desc:"The website provides an insightful and comprehensive guide to Mobile Legends players as this will cover the best heroes, builds, and effective combos to help you climb the ranks.", 
+	url:"na-seguin_tamayo-ml/", 
+	icon:"na-seguin_tamayo-ml.png",by:"Mirkki&Josh"}	
+	
 	
 function dispProj(){
 	var x;
