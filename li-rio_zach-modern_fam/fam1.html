@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>The Dunphy Family!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="keywords" content="Modern Family Website" />
+  <meta name="description" content="All You need to know about the Dunphy Family!" />
+  <meta name="author" content="Zachary Ezekiel Mactal and Rio O. Gatacilo Jr." />
+  <meta name="revised" content="12/23/2024" />
+  <link href="fam1.css" rel="stylesheet" type="text/css" /> 
+  <link rel="icon" href="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/9d6975f3-4a15-4d3e-968a-748270a60080.image.png?v=1735228586050" type="image/x-icon">
+
+  <title>Home</title>
+</head>
+  
+<body>
+      <!-- Navigation -->
+    <div class="off-screen-menu">
+      <ul>
+        <li><a href="fam1.html">Dunphy Family</a></li>
+        <li><a href="fam2.html">Pritchett Family</a></li>
+        <li><a href="fam3.html">Tucker-Pritchett Family</a></li>
+        <li><a href="quiz.html">Which Character are You?</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </div>
+  
+    <nav>
+    <div class="ham-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  
+    <div class="nav-title">
+      <a href="index.html"><button class="home-button">Faces of Modern Family</button></a>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/ModernFamily"><img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/936d263e-b726-4185-b396-69f74e9f316a.image.png?v=1734921069096" alt="Facebook"></a>
+      <a href="https://www.instagram.com/modernfamily/"><img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/a281cdae-8a30-4a0b-b869-2c8724e196bd.image.png?v=1734920955802" alt="Instagram"></a>
+      <a href="https://www.youtube.com/playlist?list=PLCsQHuMS6NowhDM_ONC0YI3Zkc-OK3qpI"><img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/2ae8f34b-2e88-43bd-a0b4-af8795a7b6dc.image.png?v=1734920883501" alt="YouTube"></a>
+      <a href="https://www.imdb.com/title/tt1442437/"><img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/4c45ab74-0ba6-4351-b2e9-653ac4fc7bc1.image.png?v=1734923948539" alt="IMDb"></a>
+    </div>
+  </nav> <br><br>
+  
+  <section class="rectangle-audio">
+      <div class="audio-text">
+        <h2>Modern Family Intro Music!</h2>
+        <div class="rec-content">
+          <audio controls autoplay loop id="background-audio">
+  
+          <source src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/modern%20family%20all%20intros%20season%201-11.mp3?v=1734943721469" type="audio/mpeg">
+          </audio>
+        </div>
+      </div>
+</section>
+  
+  
+
+      <!-- Table -->
+  <div class="content-wrapper">
+    <div class="toc-wrapper">
+      <button class="toggle-btn" onclick="toggleTOC()">&#9662;</button>
+      <div class="toc">
+        <h3>TABLE OF CONTENTS:</h3>
+        <ol>
+          <li><a href="#dunphy">Dunphy Family</a></li>
+          <li><a href="#phil">Phil Dunphy</a></li>
+          <li><a href="#claire">Claire Dunphy</a></li>
+          <li><a href="#haley">Haley Dunphy</a></li>
+          <li><a href="#alex">Alex Dunphy</a></li>
+          <li><a href="#luke">Luke Dunphy</a></li>
+        </ol>
+      </div>
+    </div>
+
+
+    
+    
+    <!-- DUNPHY -->
+    <section id="dunphy">
+      <h2>Dunphy Family</h2>
+      
+          <!-- Banner -->
+          <section class="slider">
+            <div class="slider-container">
+              <div class="slide"><img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/cropped_modern-family%20(1).jpg?v=1738428383544" alt="Image 1"></div>
+              <div class="slide"><img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/cropped_MV5BMTk0OTY5Nzk4M15BMl5BanBnXkFtZTgwNDAxMzQwMDI%40._V1_.jpg?v=1738428394121" alt="Image 2"></div>
+              <div class="slide"><img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/cropped_MV5BMjA2ODI5Mjg3Nl5BMl5BanBnXkFtZTcwNDQxNjIzNA%40%40._V1_FMjpg_UX1000_.jpg?v=1738428403533" alt="Image 3"></div>
+              <div class="slide"><img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/cropped_66732d9a498587d632fa5a79_MODERN_FAMILY_03_960.jpg?v=1738428388519" alt="Image 4"></div>
+              <div class="slide"><img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/cropped_modern-family-phil-and-claire-dunphy.png?v=1738428397968" alt="Image 5"></div>
+             </div>
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+          </section>
+      
+      <p style="text-align: justify;">Dunphy Family: This is one of the main families featured on the hit television show Modern Family, which aired from 2009 to 2020. It is described as the "typical" suburban family that overcomes hardships with humor, love, and a healthy dose of dysfunction. The family consists of five members: Phil, Claire, Haley, Alex, and Luke.</p>
+      <h3 style="text-align: center;">Dunphy Family Clips &#128514&#128512!!!</h3>
+      
+      <!-- Videos -->
+      <div style="display: flex; justify-content: space-between; gap: 10px;">
+        
+      <!-- 1st Video -->
+      <div style="flex: 1; max-width: 48%;">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/1rVH5RXho38" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p style="text-align: center;">Modern Family | The Dunphy Kids Walk in on Their Parents in the Bedroom</p> 
+      </div>
+    
+      <!-- 2nd Video -->
+      <div style="flex: 1; max-width: 48%;">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/9-TDCGhkSbA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p style="text-align: center;">Modern Family | The Dunphy Kids Through the Years</p>
+      </div>
+        
+      </div>
+    </section>
+
+
+      <!-- PHIL -->
+      <section id="phil" style="display: flex; flex-direction: column; align-items: flex-start;">
+      <h2>Phil Dunphy</h2>
+      
+      <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-top: 20px;">
+      <div style="flex: 1; padding-right: 20px;">
+        <ul style="line-height: 1.6;">
+        <li>Philip Humphrey "Phil" Dunphy</li>
+        <li>Real Estate Agent</li>
+        <li>Husband of Claire Dunphy</li>
+        <li>Father of three children Haley, Alex and Luke</li>
+        <li>Known for his DAD JOKES</li>
+        <li>"Fun Parent" compared to his wife, Claire </li>
+        <li>Creative and Optimistic</li>
+        <li>Loving and Supportive Father</li>
+        <li>Known for being a hardworking Father</li>
+        <li>Isn't serious; has a comedic charm</li>
+        <li>Catchphrase: "Phil's-osophy" (His personal life philosophy)</li> 
+        <li>Mostly seen in work or casual clothing</li>
+        <li>HE IS SCARED OF CLOWNS</li>
+        </ul>
+      </div>
+        <div style="flex: 1; max-width: 300px;">
+          <img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/djo63sntumgc1.jpeg?v=1735187558107" alt="Phil Dunphy" style="width: 100%; height: auto; border-radius: 8px;">
+        </div> 
+      </div>
+       
+      <!-- Videos -->
+      <h3 style="text-align: center; width: 100%;"> Phil Dunphy Clips &#128514;&#128512;!!!</h3>
+      <div style="display: flex; justify-content: space-evenly; gap: 20px; margin: 0 auto; padding: 0; max-width: 1200px;">
+      
+      <!-- 1st Video -->
+      <div style="flex: 1; max-width: 48%; text-align: center;">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/W_b3O3kcyiY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>modern family but it's just 10 minutes of phil dunphy</p>
+      </div>
+
+      <!-- 2nd Video -->
+      <div style="flex: 1; max-width: 48%; text-align: center;">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/SAkAf-Xloho" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>Modern Family | The Best Advice from Phil Dunphy</p>
+      </div>
+      </div>
+      
+      
+      <!-- Pictures: Throughout the Seasons -->
+      <h3 style="text-align: center; width: 100%; margin-top: 10px;">Throughout the Seasons</h3>
+
+      <!-- 11 pictures (11 seasons, 11 pictures) -->
+      <div style="display: flex; justify-content: center;">
+        <img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/Screenshot%202025-02-02%20000112.png?v=1738425778421" 
+             alt="Single Image" 
+             style="width: 100%; max-width: 1000px; height: auto; object-fit: contain; border-radius: 8px;">
+      </div>
+      </section>
+  
+      <!-- About the Actor -->
+      <section id="about-actor1" style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 30px; gap: 20px; padding: 20px 0; border-top: 2px solid #ddd;">
+    
+      <div style="flex: 1; max-width: 250px; text-align: center; padding-left: 10px;">
+      <div style="border: 1px solid #ccc; border-radius: 8px; padding: 10px;">
+      <img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/c13237b8-9b0e-4390-9845-79c7e6d7f720.image.png?v=1735200054979" alt="Actor's Picture" style="width: 100%; height: auto; border-radius: 8px;">
+      </div>
+      <p style="margin-top: 10px; font-weight: bold;">Ty Burrell</p>
+      </div>
+      
+      <!-- Text -->
+      <div style="flex: 2;">
+      <h4>Actor Behind The Character</h4>
+      <ul style="line-height: 1.6;">
+        <li>Tyler Gerald Burrell</li>
+        <li>Born August 22, 1967: Grants Pass, Oregon, USA</li>
+        <li>Earned: First Episode = 65,000; Last Episode = 500,000</li>
+        <li>"I just like comedy in general. My film work, which has been at times more dramatic, has been satisfying. But I never feel quite as good and as light and blissful as when I'm doing comedy."</li>
+      </ul>
+      </div>
+      </section>
+
+    
+    
+    <!-- CLAIRE -->
+    <section id="claire" style="display: flex; flex-direction: column; align-items: flex-start;">
+      <h2>Claire Dunphy</h2>
+      <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-top: 20px;">
+      <div style="flex: 1; padding-right: 20px;">
+        <ul style="line-height: 1.6;">
+        <li>Claire Melinda Dunphy</li>
+        <li>Employee at her Father's Closet Company</li>
+        <li>Wife of Phil Dunphy</li>
+        <li>Father of three children Haley, Alex and Luke</li>  
+        <li>Organized, Responsible, and Assertive</li>
+        <li>More Practical, no-nonsense compared to her husband, Phil </li>  
+        <li>Overly Protective and sometimes Controlling</li>
+        <li>Loving and Dedicated Mother</li>
+        <li>Known as a Hardworking and Overbearing Mother</li>
+        <li>Is serious; has a dry sense of humor</li>
+        <li>“I’m not a control freak, I’m a control enthusiast.”</li> 
+        <li>Mostly seen in classic style or work clothing</li>
+        <li>SKILLED HALLOWEEN PRANKSTER</li>
+        </ul>
+      </div>   
+        <div style="flex: 1; max-width: 300px;">
+          <img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/0db5b1ae309135370bdce67307bbafd0.jpg?v=1735204725867" alt="Phil Dunphy" style="width: 100%; height: auto; border-radius: 8px;">
+        </div> 
+      </div>
+      
+      
+      <!-- Videos -->
+      <h3 style="text-align: center; width: 100%;"> Claire Dunphy Clips &#128514;&#128512;!!!</h3>
+      <div style="display: flex; justify-content: space-evenly; gap: 20px; margin: 0 auto; padding: 0; max-width: 1200px;">
+      
+      <!-- 1st Video -->
+      <div style="flex: 1; max-width: 48%; text-align: center;">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/AYS0lIb7YDY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>Modern Family | Claire Dunphy Is the Best Mom, No Need For Debate</p>
+      </div>
+
+      <!-- 2nd Video -->
+      <div style="flex: 1; max-width: 48%; text-align: center;">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/kDVptPB31ZU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>Claire’s Parenting Trick on Haley and Alex Backfires (Clip) | Modern Family | TBS</p>
+      </div>
+      </div>
+      
+      
+      <!-- Pictures: Throughout the Seasons -->
+      <h3 style="text-align: center; width: 100%; margin-top: 10px;">Throughout the Seasons</h3>
+
+      <!-- 11 pictures (11 seasons, 11 pictures) -->
+      <div style="display: flex; justify-content: center;">
+        <img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/Screenshot%202025-02-02%20000712.png?v=1738426042115" 
+             alt="Single Image" 
+             style="width: 100%; max-width: 1000px; height: auto; object-fit: contain; border-radius: 8px;">
+      </div>
+    </section>
+    
+      <!-- About the Actor -->
+      <section id="about-actor2" style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 30px; gap: 20px; padding: 20px 0; border-top: 2px solid #ddd;">
+    
+      <div style="flex: 1; max-width: 250px; text-align: center; padding-left: 10px;">
+      <div style="border: 1px solid #ccc; border-radius: 8px; padding: 10px;">
+      <img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/376f89eb-a86d-431b-83a9-f48671bf1d50.image.png?v=1735209201687" alt="Actor's Picture" style="width: 100%; height: auto; border-radius: 8px;">
+      </div>
+      <p style="margin-top: 10px; font-weight: bold;">Julie Bowen</p>
+      </div>
+      
+      <!-- Text -->
+      <div style="flex: 2;">
+      <h4>Actor Behind The Character</h4>
+      <ul style="line-height: 1.6;">
+        <li>Julie Bowen Luetkemeyer</li>
+        <li>Born March 03, 1970: Baltimore, Maryland</li>
+        <li>Earned: First Episode = 65,000; Last Episode = 500,000</li>
+        <li>"I get very anxious doing straight comedy, and I hate table reads with the passion of a thousand burning suns."</li>
+      </ul>
+      </div>
+      </section>
+    
+    
+    <!-- HALEY -->
+    <section id="haley" style="display: flex; flex-direction: column; align-items: flex-start;">
+      <h2>Haley Dunphy</h2>
+      <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-top: 20px;">
+      <div style="flex: 1; padding-right: 20px;">
+        <ul style="line-height: 1.6;">
+        <li>Haley Gwendolyn Dunphy</li>
+        <li>Marketing and Fashion Designer</li>
+        <li>Eldest Dunphy Child</li>
+        <li>Ends up marrying Dylan Marshall, have twins together</li>  
+        <li>Fashionable, Fun-loving, and Social</li>
+        <li>Values her Social Life and Relationships in her Younger Years </li>  
+        <li>Starts as a Stereotypical "ditsy" Teenager </li>
+        <li>Grows into a more Responsible and Caring Adult.</li>
+        <li>A Mother to Twins with Surprising Grace and Maturity.</li>
+        <li>Loving, Capable, and Much Deeper than Before</li>
+        <li>"I don’t need to go to college. This face is my scholarship."</li> 
+        <li>Mostly seen in clothes that are trendy and personality-based</li>
+        <li>SOCIAL SAVVY AND CREATIVITY</li>
+        </ul>
+      </div>   
+        <div style="flex: 1; max-width: 300px;">
+          <img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/1ff96e75-0ed5-4a01-b755-39b5eb132d43.image.png?v=1735214980138" alt="Phil Dunphy" style="width: 100%; height: auto; border-radius: 8px;">
+        </div> 
+      </div>
+
+      
+      <!-- Videos -->
+      <h3 style="text-align: center; width: 100%;"> Haley Dunphy Clips &#128514;&#128512;!!!</h3>
+      <div style="display: flex; justify-content: space-evenly; gap: 20px; margin: 0 auto; padding: 0; max-width: 1200px;">
+      
+      <!-- 1st Video -->
+      <div style="flex: 1; max-width: 48%; text-align: center;">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/6uBSu9kGCcw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>Modern Family | 10 Minutes of Haley Dunphy Living Her Best Life</p>
+      </div>
+
+      <!-- 2nd Video -->
+      <div style="flex: 1; max-width: 48%; text-align: center;">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/oYTwSa2HdMI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>Haley Dunphy being iconic for 6 minutes straight</p>
+      </div>
+      </div>
+
+      
+      <!-- Pictures: Throughout the Seasons -->
+      <h3 style="text-align: center; width: 100%; margin-top: 10px;">Throughout the Seasons</h3>
+
+      <!-- 11 pictures (11 seasons, 11 pictures) -->
+      <div style="display: flex; justify-content: center;">
+        <img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/Screenshot%202025-02-02%20001148.png?v=1738426319432" 
+             alt="Single Image" 
+             style="width: 100%; max-width: 1000px; height: auto; object-fit: contain; border-radius: 8px;">
+      </div>
+  
+      </section>
+    
+      <!-- About the Actor -->
+      <section id="about-actor3" style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 30px; gap: 20px; padding: 20px 0; border-top: 2px solid #ddd;">
+    
+      <div style="flex: 1; max-width: 250px; text-align: center; padding-left: 10px;">
+      <div style="border: 1px solid #ccc; border-radius: 8px; padding: 10px;">
+      <img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/4a0fc9c5-3da2-4c45-bb45-1b12e41c4626.image.png?v=1735215890936" alt="Actor's Picture" style="width: 100%; height: auto; border-radius: 8px;">
+      </div>
+      <p style="margin-top: 10px; font-weight: bold;">Sarah Hyland</p>
+      </div>
+      
+      <!-- Text -->
+      <div style="flex: 2;">
+      <h4>Actor Behind The Character</h4>
+      <ul style="line-height: 1.6;">
+        <li>Sarah Hyland (I)</li>
+        <li>Born November 24, 1990: Manhattan, New York, USA</li>
+        <li>Earned: First Episode = 15,000; Last Episode = 125,000</li>
+        <li>"I wish I was taller or curvier, but I'm happy with the way I look."</li>
+      </ul>
+      </div>
+      </section>
+      
+      
+    <!-- ALEX -->  
+    <section id="alex" style="display: flex; flex-direction: column; align-items: flex-start;">
+      <h2>Alex Dunphy</h2>
+      <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-top: 20px;">
+      <div style="flex: 1; padding-right: 20px;">
+        <ul style="line-height: 1.6;">
+        <li>Alexandria Anastasia "Alex" Dunphy</li>
+        <li>Became a Researcher</li>
+        <li>Middle Dunphy Child</li>
+        <li>Graduates from Harvard University and works as a Scientist</li>  
+        <li>Haley's Polar Opposite as she cares more about her Studies</li>
+        <li>Dedicated, Driven, and Intelligent </li>   
+        <li>Socially Awkward and an Overachiever</li>
+        <li>The Family's Voice of Reason, often the responsible one</li> 
+        <li>Struggles with Romance due to her Academic Focus</li>
+        <li>Independent and Focused on her Career by Series' End</li>
+        <li>"Some people ask 'Why?' I ask, 'Why not me?"</li>
+        <li>Mostly seen in clothes that are casual and comfortable</li>
+        <li>SERIOUS AND ACADEMIC</li>
+        </ul>
+      </div>   
+        <div style="flex: 1; max-width: 300px;">
+          <img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/d10125381b3bafd258c75b81c54e7cef.jpg?v=1735222198575" alt="Phil Dunphy" style="width: 100%; height: auto; border-radius: 8px;">
+        </div> 
+      </div>   
+      
+      
+      <!-- Videos -->
+      <h3 style="text-align: center; width: 100%;"> Alex Dunphy Clips &#128514;&#128512;!!!</h3>
+      <div style="display: flex; justify-content: space-evenly; gap: 20px; margin: 0 auto; padding: 0; max-width: 1200px;">
+      
+      <!-- 1st Video -->
+      <div style="flex: 1; max-width: 48%; text-align: center;">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/d9rq5x4sIt0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>BEST OF Modern Family: Alex Dunphy</p>
+      </div>
+
+      <!-- 2nd Video -->
+      <div style="flex: 1; max-width: 48%; text-align: center;">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/ICcgwifczXw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>Alex studying - modern family funny clip</p>
+      </div>
+      </div>
+      
+      
+      <!-- Pictures: Throughout the Seasons -->
+      <h3 style="text-align: center; width: 100%; margin-top: 10px;">Throughout the Seasons</h3>
+
+      <!-- 11 pictures (11 seasons, 11 pictures) -->
+      <div style="display: flex; justify-content: center;">
+        <img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/40917491-1ea3-416a-a92b-310b4540948f.image.png?v=1738426431413" 
+             alt="Single Image" 
+             style="width: 100%; max-width: 1000px; height: auto; object-fit: contain; border-radius: 8px;">
+      </div>
+      
+      </section>
+  
+
+      <!-- About the Actor -->
+      <section id="about-actor4" style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 30px; gap: 20px; padding: 20px 0; border-top: 2px solid #ddd;">
+    
+      <div style="flex: 1; max-width: 250px; text-align: center; padding-left: 10px;">
+      <div style="border: 1px solid #ccc; border-radius: 8px; padding: 10px;">
+      <img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/bca54bb2-6e5f-411d-a4ea-25e892b33405.image.png?v=1735222761957" alt="Actor's Picture" style="width: 100%; height: auto; border-radius: 8px;">
+      </div>
+      <p style="margin-top: 10px; font-weight: bold;">Ariel Winter</p>
+      </div>
+      
+      <!-- Text -->
+      <div style="flex: 2;">
+      <h4>Actor Behind The Character</h4>
+      <ul style="line-height: 1.6;">
+        <li>Ariel Winter </li>
+        <li>Born January 28, 1998: Fairfax, Virginia, USA</li>
+        <li>Earned: First Episode = 15,000; Last Episode = 125,000</li>
+        <li>"It's important to empower people to be comfortable with themselves."</li>
+      </ul>
+      </div>
+      </section>
+    
+   
+    <!-- LUKE -->
+    <section id="luke" style="display: flex; flex-direction: column; align-items: flex-start;">
+      <h2>Luke Dunphy</h2>
+      <div style="display: flex; justify-content: space-between; align-items: center; width: 100%; margin-top: 20px;">
+      <div style="flex: 1; padding-right: 20px;">
+        <ul style="line-height: 1.6;">
+        <li>Lucas Philip "Luke" Dunphy</li>
+        <li>Occupations Primarily Centered around his Personal Growth</li>
+        <li>Youngest Dunphy Child</li>
+        <li>Known to be a bit Dumb and quite Rambunctious.</li> 
+        <li>Frequently portrayed as a little clueless but still lovable</li> 
+        <li>Fond of Inventions, though they tend to be impractical </li> 
+        <li>Luke often shows creativity when it comes to his wild ideas</li>  
+        <li>Relatively close to his parents, especially with Phil</li> 
+        <li>Seen as the “wild card” in the family</li>
+        <li>In the later seasons, he begins to focus more on his future</li>
+        <li>"I think I’m gonna be the next Einstein. but with cooler stuff."</li>
+        <li>Mostly seen in clothes that reflect his carefree personality.</li>  
+        <li>CLUELESS AND ADVENTUROUS</li>
+        </ul>
+      </div>   
+        <div style="flex: 1; max-width: 300px;">
+          <img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/28a7b73c-0020-4d36-a097-bdd123980cf3.image.png?v=1735225302982" alt="Phil Dunphy" style="width: 100%; height: auto; border-radius: 8px;">
+        </div> 
+      </div>
+      
+      
+      <!-- Videos -->
+      <h3 style="text-align: center; width: 100%;"> Luke Dunphy Clips &#128514;&#128512;!!!</h3>
+      <div style="display: flex; justify-content: space-evenly; gap: 20px; margin: 0 auto; padding: 0; max-width: 1200px;">
+      
+      <!-- 1st Video -->
+      <div style="flex: 1; max-width: 48%; text-align: center;">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/gohjrTcJ9Dc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>Luke Dunphy Giving Youngest Sibling Energy for 9 Minutes Straight | Modern Family</p>
+      </div>
+
+      <!-- 2nd Video -->
+      <div style="flex: 1; max-width: 48%; text-align: center;">
+      <iframe width="100%" height="315" src="https://www.youtube.com/embed/tsGZbuHVCg0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <p>phil and luke dumphy being my favorite father and son duo #modernfamily</p>
+      </div>
+      </div>
+      
+   
+      <!-- Pictures: Throughout the Seasons -->
+      <h3 style="text-align: center; width: 100%; margin-top: 10px;">Throughout the Seasons</h3>
+
+      <!-- 11 pictures (11 seasons, 11 pictures) -->
+      <div style="display: flex; justify-content: center;">
+        <img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/eed6dcbf-1331-48ac-a2af-a599a0c20469.image.png?v=1738426447260" 
+             alt="Single Image" 
+             style="width: 100%; max-width: 1000px; height: auto; object-fit: contain; border-radius: 8px;">
+      </div>
+      </section>   
+      
+    
+      <!-- About the Actor -->
+      <section id="about-actor5" style="display: flex; justify-content: space-between; align-items: flex-start; margin-top: 30px; gap: 20px; padding: 20px 0; border-top: 2px solid #ddd;">
+    
+      <div style="flex: 1; max-width: 250px; text-align: center; padding-left: 10px;">
+      <div style="border: 1px solid #ccc; border-radius: 8px; padding: 10px;">
+      <img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/0ba8e587-2201-4eaf-ac5d-358bca501e87.image.png?v=1735226234545" alt="Actor's Picture" style="width: 100%; height: auto; border-radius: 8px;">
+      </div>
+      <p style="margin-top: 10px; font-weight: bold;">Nolan Gould</p>
+      </div>
+      
+      <!-- Text -->
+      <div style="flex: 2;">
+      <h4>Actor Behind The Character</h4>
+      <ul style="line-height: 1.6;">
+        <li>Nolan Gould </li>
+        <li>Born October 28, 1998: New York City, New York, USA</li>
+        <li>Earned: First Episode = 15,000; Last Episode = 125,000</li>
+        <li>"Being an actor means you have to be able to take on different roles and become different people, and I love the challenge that comes with it."</li>
+      </ul>  
+      </div>
+      </section>
+    
+    
+
+  
+  <section id="fixed-references">
+    <h2>References:</h2>
+   <ul>
+      <li>Best Of x. (2018, January 28). BEST OF Modern Family: Alex Dunphy [Video]. YouTube. 
+        <a href="https://www.youtube.com/watch?v=d9rq5x4sIt0">YouTube</a>.</li>
+      <li>bribelle. (2023, December 21). phil and luke dumphy being my favorite father and son duo #modernfamily [Video]. YouTube. 
+        <a href="https://www.youtube.com/watch?v=tsGZbuHVCg0">YouTube</a>.</li>
+      <li>clive bixby. (2023b, May 11). modern family but it’s just 10 minutes of phil dunphy [Video]. YouTube. 
+        <a href="https://www.youtube.com/watch?v=W_b3O3kcyiY">YouTube</a>.</li>
+      <li>Clip King. (2023, November 7). Haley Dunphy being iconic for 6 minutes straight [Video]. YouTube. 
+        <a href="https://www.youtube.com/watch?v=oYTwSa2HdMI">YouTube</a>.</li>
+      <li>IMDb. (n.d.). Ty Burrell. IMDb. 
+        <a href="https://www.imdb.com/name/nm0123092/bio/">IMDb</a>.</li>
+      <li>IMDb. (n.d.-a). Julie Bowen. IMDb. 
+        <a href="https://www.imdb.com/name/nm0100866/">IMDb</a>.</li>
+      <li>IMDb. (n.d.-a). Ariel Winter. IMDb. 
+        <a href="https://www.imdb.com/name/nm1736769/">IMDb</a>.</li>
+      <li>IMDb. (n.d.-b). Sarah Hyland. IMDb. 
+        <a href="https://www.imdb.com/name/nm0405103/">IMDb</a>.</li>
+      <li>IMDb. (n.d.-c). Nolan Gould. IMDb. 
+        <a href="https://www.imdb.com/name/nm2188098/">IMDb</a>.</li>
+      <li>Imogen L. (2020, September 1). Alex studying - modern family funny clip [Video]. YouTube. 
+        <a href="https://www.youtube.com/watch?v=ICcgwifczXw">YouTube</a>.</li>
+      <li>McCormick, C., Barker, S., Hughes, L., &amp Bruce, A. (2024, July 4). How Much Were The Modern Family Cast Paid For The First Episode &amp The Final One. ScreenRant. 
+        <a href="https://screenrant.com/modern-family-cast-salaries-first-finale-episodes/">IMDb</a>.</li>
+      <li>Peacock. (2021, February 12). Modern Family | The Best Advice from Phil Dunphy [Video]. YouTube. 
+        <a href="https://www.youtube.com/watch?v=SAkAf-Xloho">YouTube</a>.</li>
+      <li>Peacock. (2022, May 11). Modern Family | Claire Dunphy is the best mom, no need for debate [Video]. YouTube. 
+        <a href="https://www.youtube.com/watch?v=AYS0lIb7YDY">YouTube</a>.</li>
+      <li>Peacock. (2022a, January 22). Luke Dunphy giving youngest sibling energy for 9 minutes straight | Modern family [Video]. YouTube. 
+        <a href="https://www.youtube.com/watch?v=gohjrTcJ9Dc">YouTube</a>.</li>
+      <li>Peacock. (2022b, December 21). Modern Family | 10 minutes of Haley Dunphy living her best life [Video]. YouTube. 
+        <a href="https://www.youtube.com/watch?v=6uBSu9kGCcw">YouTube</a>.</li>
+      <li>Peacock. (2023, May 18). Modern Family | The Dunphy kids walk in on their parents in the bedroom [Video]. YouTube. 
+        <a href="https://youtu.be/1rVH5RXho38?feature=shared">YouTube</a>.</li>
+      <li>Peacock. (2023a, April 5). Modern Family | The Dunphy Kids Through the years [Video]. YouTube. 
+        <a href="https://youtu.be/9-TDCGhkSbA?feature=shared">YouTube</a>.</li>
+      <li>TBS. (2024, October 14). Claire’s parenting trick on Haley and Alex Backfires (Clip) | Modern Family | TBS [Video]. YouTube. 
+        <a href="https://www.youtube.com/watch?v=kDVptPB31ZU">YouTube</a>.</li>
+      <li>W3Schools.com. (n.d.-c). 
+        <a href="https://www.w3schools.com/html/html_emojis.asp">W3Schools</a>.</li>
+      <li>Wiki, C. T. M. F. (n.d.). List of Modern Family characters. Modern Family Wiki. 
+        <a href="https://modernfamily.fandom.com/wiki/List_of_Modern_Family_characters">Wiki</a>.</li>
+
+    </ul>
+  </section>
+
+  
+    <!-- Footer -->
+    <footer>
+    <p>&copy; 2024 R. Gatacilo Jr, Z. Mactal, 9 - Lithium</p>
+    </footer>
+    <script src="fam1.js"></script>
+  </body>
+</html>

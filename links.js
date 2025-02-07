@@ -65,10 +65,38 @@ links[25]={section:"9Mg",title:"Click Civilization",
 	icon:"mg-rajveer_cait-click_civ.png",by:"Rajveer&Cait"}	
 links[26]={section:"9Mg",title:"Heartspire",
 	desc:"At Heartspire Foundation, we believe in the extraordinary power of empathy to transform lives and build a better world.", 
-	url:" https://christiansolidum.github.io/project-proposal-cs3--solidum-sulicipan/", 
+	url:"https://christiansolidum.github.io/project-proposal-cs3--solidum-sulicipan/", 
 	icon:"mg-christian_von-heartspire.png",by:"Christian&Von"}	
+links[27]={section:"9Be",title:"Stick Chase",
+	desc:"A game to erase the stickman", 
+	url:"https://wdprojberylliumaducalaguda.glitch.me/index.html", 
+	icon:"aducal.png",by:"Aducal"}	
+links[28]={section:"9Be",title:"DubiDubiTapTap",
+	desc:"DubiDubiTapTap is a website that contains simple, fun, and accessible offline games. “Dubi” is short for “digital buddy", 
+	url:"https://wdprojberylliumbaguioreblorasalvador.glitch.me/", 
+	icon:"iesu.png",by:"baguio&reblora&salvador"}	
+links[29]={section:"9Be",title:"Chessmate",
+	desc:"Chessmate is a website that allows users to access chess-related content and play interactive chess games.", 
+	url:"https://wdprojberylliumcruzsangalang-.glitch.me/index.html", 
+	icon:"be1327.png",by:"cruz&sangalang"}	
+links[30]={section:"9Sr",title:"Battleship",
+	desc:"Welcome to Battleship! A classic game of strategy and luck, where players will try to sink each other's ships before their own ships are sunk.", 
+	url:"sr-don_rainer-battleship/", 
+	icon:"sr-don_rainer-battleship.png",by:"Don&Rainer"}	
+links[31]={section:"9Sr",title:"Chess",
+	desc:"A website where you can play and know the history and objectives about Chess.", 
+	url:"sr-sony_panis-chess/", 
+	icon:"sr-sony_panis-chess.png",by:"Sony&Panis"}	
+links[32]={section:"9Sr",title:"Miraculous Ladybug",
+	desc:"A collection of personal opinions, images, synopses, and more about Miraculous Ladybug.", 
+	url:"https://hasherbrownie.github.io/wdprojstrontiumganpadilla/public/index.html", 
+	icon:"sr-jamie_maize-miraculous.png",by:"Jamie&Maize"}	
+links[33]={section:"9Li",title:"Digipop",
+	desc:"DigiPop is the ultimate digital playground where collectors can challenge themselves through fun mini-games to customize and unlock unique figurines like Smiskis and Mofusands, all designed by Lucille Marie Dalope and Francesca Carmen Bagnes of 9 - Lithium!", 
+	url:"li-lucille-digipop/", 
+	icon:"li-lucille-digipop.png",by:"Jamie&Maize"}	
 
-
+	
 function dispProj(){
 	var x;
 	var genNum=[];

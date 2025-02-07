@@ -1,0 +1,66 @@
+@import url('https://fonts.cdnfonts.com/css/ncl-aekabih-muskey');
+@import url('https://fonts.cdnfonts.com/css/digital-tech');
+                
+                
+html, body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+body { 
+          text-align: center; 
+          font-family: 'NCL Aekabih Muskey', sans-serif; 
+          color: #FCF5C7;
+          background-color: #FCF5C7;
+
+}
+        }
+  .navbar { 
+          background-color: rgb(255, 158, 171); 
+          font-family: Arial, sans-serif; 
+          padding: 15px;
+          position: sticky;
+          box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+          top: 0;
+        }
+  .navdiv {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+        }
+        .logo a{
+        font-size:35px; font-weight:600; color: snow;
+        }
+        li{
+        list-style: none; display: inline-block;
+        }
+      li a{
+        color: snow; font-size: 18px; font-weight: bold; margin-right: 25px;
+      }
+  h1{
+    font-family: 'NCL Aekabih Muskey', sans-serif; 
+    font-size:50px;
+    color:#79ADDC;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  h2{
+    font-family: 'NCL Aekabih Muskey', sans-serif; 
+    font-size:40px;
+    color:black;
+  }
+  button{
+    font-family: 'NCL Aekabih Muskey', sans-serif;
+    background-color:pink;
+    font-size:40px;
+  }
+  button:hover{
+    font-family: 'NCL Aekabih Muskey', sans-serif;
+    background-color:skyblue;
+    font-size:43px;
+  }
+  p{
+    font-family: 'NCL Aekabih Muskey', sans-serif; 
+    font-size:30px;
+    color:black;
+  }

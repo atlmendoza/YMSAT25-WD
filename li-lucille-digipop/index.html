@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="DigiPop - The ultimate digital playground for fans of charming collectibles."
+    />
+    <meta
+      name="author"
+      content="Lucille Marie M. Dalope & Francesca Carmen M. Bagnes"
+    />
+    <title>DigiPop - Welcome</title>
+    <link
+      rel="icon"
+      type="image"
+      href="https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/DIGIPOP%20(1).png?v=1734939685197"
+    />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="navbar.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div id="navbar-container"></div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        fetch("navbar.html", { cache: "no-cache" }) // Prevents caching issues
+          .then((response) => response.text())
+          .then((data) => {
+            document.getElementById("navbar-container").innerHTML = data;
+          })
+          .catch((error) => console.error("Error loading navbar:", error));
+      });
+    </script>
+
+    <div class="main-content">
+      <section class="welcome">
+        <p>Welcome to DigiPop!</p>
+      </section>
+
+      <main>
+        <section id="about">
+          <h2>𐙚˙⋆.˚ ᡣ𐭩 About DigiPop ⤵</h2>
+          <div class="about-box">
+            <p>
+              DigiPop is an exciting digital platform designed for fans of
+              collectible figurines. Whether you’re a long-time collector or new
+              to the world of mini figurines, DigiPop offers an interactive
+              experience that combines the fun of digital collection and
+              customization. The platform allows users to explore and gather
+              charming collectibles like Smiskis, Sonny Angels, and Mofusands,
+              all within a vibrant online community. Through DigiPop, users can
+              customize their figurines with different outfits and accessories,
+              using in-game gems earned through fun mini-games. </p>
+            
+            <p>Beyond just
+              collecting, DigiPop offers a variety of engaging activities such
+              as playing games like Rock-Paper-Scissors, Snake, and Hangman.
+              These games reward players with gems, which can be used to unlock
+              unique customization options for their figurines. The platform’s
+              goal is to create a space where users can express themselves and
+              unleash their creativity while collecting their favorite digital
+              characters. With endless possibilities to explore, DigiPop brings
+              together gaming and collecting in one place for a truly immersive
+              experience.
+            </p>
+            <p>
+              Explore, collect, and style your digital figurines in a vibrant
+              online community. Start your journey today and discover endless
+              possibilities for self-expression and creativity!
+            </p>
+          </div>
+          <p>
+            <strong
+              >Click on the images below to see them toggle between two versions; Normal Figurine vs DigiPop-ified! Play NOW to do this, too!</strong
+            >
+          </p>
+          <div class="photo-container">
+            <div class="photo" id="photo1">
+              <img
+                src="https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/normalsmiski.png?v=1738856408968"
+                alt="Smiski"
+                onclick="toggleImage(this, 
+                           'https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/slaysmiski.png?v=1738856407455', 
+                           'https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/normalsmiski.png?v=1738856408968')"
+              />
+            </div>
+            <div class="photo" id="photo2">
+              <img
+                src="https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/normalsonny.png?v=1738865910598"
+                alt="Sonny Angel"
+                onclick="toggleImage(this, 
+                           'https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/slaysonny.png?v=1738865914196', 
+                           'https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/normalsonny.png?v=1738865910598')"
+              />
+            </div>
+            <div class="photo" id="photo3">
+              <img
+                src="https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/normalmofu.png?v=1738865940556"
+                alt="Mofusand"
+                onclick="toggleImage(this, 
+                           'https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/slaymofu.png?v=1738865944000', 
+                           'https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/normalmofu.png?v=1738865940556')"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section id="creators">
+          <h2>Meet the Creators!</h2>
+
+          <!-- Button for Lucille -->
+          <button id="lucille-button" class="creator-button">
+            Lucille Dalope
+          </button>
+          <!-- Button for Chesca -->
+          <button id="chesca-button" class="creator-button">
+            Chesca Bagnes
+          </button>
+
+          <!-- Chesca's photo -->
+          <div class="photo" id="chesca-photo" style="display: none">
+            <img
+              src="https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/chesca_id?v=1738772014105g"
+              alt="Chesca Bagnes"
+            />
+          </div>
+
+          <!-- Lucille's photo -->
+          <div class="photo" id="lucille-photo">
+            <img
+              src="https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/lucille_id?v=1738772206912"
+              alt="Lucille Dalope"
+            />
+          </div>
+        </section>
+
+        <section id="othershomes">
+          <h2>Click below to start your explosive adventure! ⤵</h2>
+          <p>
+            Play exciting games like Rock-Paper-Scissors, Snake, and Hangman to
+            win gems and unlock special prizes! Earn rewards to customize your
+            collectibles and make them truly unique.
+          </p>
+          <div class="container">
+            <button onclick="document.location='rps.html'" id="rps-button">
+              Rock-Paper-Scissors
+            </button>
+            <button onclick="document.location='snake.html'" id="snake-button">
+              Snake
+            </button>
+            <button
+              onclick="document.location='hangman.html'"
+              id="hangman-button"
+            >
+              Hangman
+            </button>
+            <button onclick="document.location='shop.html'">Shop</button>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer id="footerhomes">
+      <footer>
+      <a href="https://www.facebook.com/smiski.ph"><div class="fb"> </div></a>
+      <a href="https://x.com/smiski_japan?lang=en"><div class="x"></div></a>
+      <a href="https://www.linkedin.com/company/dreams-usa"><div class="linkedin"></div></a>
+      <p><strong>&copy; 2024 DigiPop: Bagnes, Dalope. </strong></p>
+    <p><strong> References: </strong></p>
+      <div id="references">
+  <ul>
+    <li>CodePen. (n.d.). <i>Snake game in JavaScript</i>. Retrieved February 6, 2025, from https://codepen.io/cathydutton/pen/JjpxMm</li>
+    <li>CodingNepal. (2023, March 10). <i>Build Hangman game using HTML JavaScript</i>. Retrieved from https://www.codingnepalweb.com/build-hangman-game-html-javascript</li>
+    <li>freeCodeCamp. (2022, July 15). <i>How to build a snake game in JavaScript</i>. Retrieved from https://www.freecodecamp.org/news/how-to-build-a-snake-game-in-javascript</li>
+    <li>GeeksforGeeks. (2023, June 5). <i>Create a snake game using HTML, CSS, and JavaScript</i>. Retrieved from https://www.geeksforgeeks.org/create-a-snake-game-using-html-css-and-javascript/</li>
+    <li>Dreams Inc. (n.d.). <i>Smiski products</i>. Retrieved February 6, 2025, from https://smiski.com/e/products/</li>
+    <li>Sonny Angel. (n.d.). <i>Sonny Angel collectible figurines</i>. Retrieved February 6, 2025, from https://www.sonnyangel.com/en/products</li>
+    <li>W3Schools. (n.d.). <i>CSS gradients</i>. Retrieved February 6, 2025, from https://www.w3schools.com/css/css3_gradients.asp</li>
+    <li>W3Schools. (n.d.). <i>CSS navigation bar</i>. Retrieved February 6, 2025, from https://www.w3schools.com/css/css_navbar.asp</li>
+    <li>W3Schools. (n.d.). <i>How to create a fixed footer</i>. Retrieved February 6, 2025, from https://www.w3schools.com/howto/howto_css_fixed_footer.asp</li>
+    <li>Firework. (n.d.). <i>How to embed social media feed on a website</i>. Retrieved from https://firework.com/blog/how-to-embed-social-media-feed-on-a-website</li>
+    <li>GeeksforGeeks. (n.d.). <i>How to create toggle switch by using HTML and CSS</i>. Retrieved from https://www.geeksforgeeks.org/how-to-create-toggle-switch-by-using-html-and-css/</li>
+    <li>W3Schools. (n.d.). <i>CSS switch</i>. Retrieved from https://www.w3schools.com/HOWTO/howto_css_switch.asp</li>
+  </ul>
+</div>
+      </footer>
+  </body>
+</html>

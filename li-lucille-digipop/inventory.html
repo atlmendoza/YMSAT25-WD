@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Try out different minigames, from Rock-Paper-Scissors to Snake!">
+    <meta name="author" content="Lucille Marie M. Dalope & Francesca Carmen M. Bagnes">
+    <title>DigiPop - Mini-Games</title>
+    <link rel="icon" type="image" href="https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/DIGIPOP%20(1).png?v=1734939685197">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="inventory.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+     <!-- Navbar directly included here -->
+    <header class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="/index.html">DigiPop</a></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="hangman.html">Hangman</a></li>
+                <li><a href="snake.html">Snake</a></li>
+                <li><a href="rps.html">Rock-Paper-Scissors</a></li>
+                <li><a href="inventory.html">Inventory</a></li>
+                <li><a href="shop.html">Shop</a></li>
+            </ul>
+        </div>
+    </header>
+<div id="navbar-container"></div>
+    <!-- Main Content Header -->
+    <header>
+        <h1>Your Inventory</h1> <!-- Title for the Inventory page -->
+    </header>
+
+    <!-- Main Content Body -->
+    <main>
+        <div class="inventory-container" id="inventoryContainer">
+            <!-- If no items are purchased, show this message -->
+            <div id="noItemsMessage">Play games to acquire accessories that will be seen here!</div>
+        </div>
+
+        <!-- Button to go back to the homepage -->
+        <button onclick="goBack()">Go Back</button>
+    </main>
+
+    <!-- Footer with copyright info -->
+    <footer>
+        <p>&copy; 2024 DigiPop. All Rights Reserved.</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Function to handle the "Go Back" button click event
+        function goBack() {
+            window.location.href = 'index.html';  // Redirect the user back to the homepage
+        }
+
+        // JavaScript function to check if there are any purchased items in localStorage
+        window.onload = function() {
+            // Retrieve the list of purchased items from localStorage (or set to an empty array if none exist)
+            let purchasedItems = JSON.parse(localStorage.getItem('purchasedItems')) || [];
+
+            // Check if there are no items in the inventory
+            if (purchasedItems.length === 0) {
+                // If no items are purchased, display a message asking the user to play games
+                document.getElementById('noItemsMessage').style.display = 'block';
+            } else {
+                // If there are purchased items, hide the message and display the items
+                document.getElementById('noItemsMessage').style.display = 'none';
+                displayItems(purchasedItems);
+            }
+        };
+
+        // Function to dynamically display items in the inventory
+        function displayItems(items) {
+            // Get the container to hold the item cards
+            let inventoryContainer = document.getElementById('inventoryContainer');
+
+            // Loop through the purchased items and create an item card for each
+            items.forEach(item => {
+                // Create a new item card div
+                let itemCard = document.createElement('div');
+                itemCard.classList.add('item-card');
+
+                // Add an image to the item card (assuming item.image holds the image URL)
+                let itemImage = document.createElement('img');
+                itemImage.src = item.image;
+                itemImage.alt = item.name;
+                itemCard.appendChild(itemImage);
+
+                // Add item name and price to the item card
+                let itemName = document.createElement('div');
+                itemName.classList.add('item-name');
+                itemName.textContent = item.name;
+                itemCard.appendChild(itemName);
+
+                let itemInfo = document.createElement('div');
+                itemInfo.classList.add('item-info');
+                itemInfo.textContent = `Price: ${item.price} gems`; // Example of showing price
+                itemCard.appendChild(itemInfo);
+
+                // Append the item card to the inventory container
+                inventoryContainer.appendChild(itemCard);
+            });
+        }
+    </script>
+</body>
+</html>

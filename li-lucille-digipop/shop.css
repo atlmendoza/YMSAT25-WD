@@ -1,0 +1,185 @@
+@import url('https://fonts.cdnfonts.com/css/ncl-aekabih-muskey');
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'NCL Aekabih Muskey', sans-serif;
+    background-color: #FCF5C7;
+    color: #79ADDC;
+    text-align: center;
+    font-size: 30px
+}
+
+/* Navbar Styling */
+.navbar { 
+  position: sticky;
+  top: 0;
+  background-color: rgb(255, 158, 171); /* Light pink navbar */
+  font-family: Arial, sans-serif;
+  padding: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo Styling */
+.logo a {
+  font-size: 35px;
+  font-weight: 600;
+  color: snow; /* White text */
+}
+
+/* Navigation Links */
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: snow; 
+  font-size: 18px; 
+  font-weight: bold; 
+  margin-right: 25px;
+  text-decoration: none;
+}
+
+/* Scrollable container for clothing items */
+.scroll-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+/* Individual clothing item styling */
+.clothing-item {
+    color: #e0218a;
+    text-align: center;
+    font-size:30px;
+    width: 200px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.clothing-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for images within clothing items */
+.clothing-item img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* Button styling */
+button {
+    font-family: 'NCL Aekabih Muskey', sans-serif;
+    background-color: #FF9EAB;
+    border: none;
+    padding: 12px 30px;
+    font-size: 20px;
+    color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Box container for gems display */
+.gems-box {
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 20px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-size: 26px;
+    z-index: 100; /* Ensures it stays on top of other elements */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Add a shadow to the box for more contrast */
+.gems-box-shadow {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Gem icon style inside the box */
+.gems-box img {
+    margin-right: 10px;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color:#e0218a;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Styling for clothing catalog and page layout */
+#clothingCatalog {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left: 280px;
+}
+
+/* Adjusts layout for smaller screens */
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .gems-box {
+        top: 70px;
+        right: 10px;
+    }
+
+    #clothingCatalog {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .gems-box {
+        top: 60px;
+        right: 10px;
+        padding: 10px;
+    }
+
+    #clothingCatalog {
+        grid-template-columns: 1fr;
+    }
+}

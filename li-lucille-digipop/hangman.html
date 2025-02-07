@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/DIGIPOP%20(1).png?v=1734939685197">
+    <link rel="stylesheet" href="hangman.css">    
+    <link rel="stylesheet" href="navbar.css">
+    <title>Hangman Game</title>
+    <style>
+        body { text-align: center; font-family: Arial, sans-serif; }
+        h1 { font-size: 2em; }
+        .word { font-size: 2em; letter-spacing: 10px; }
+        #alphabet { display: flex; flex-wrap: wrap; justify-content: center; margin-top: 20px; }
+        #alphabet button { margin: 5px; padding: 10px; font-size: 18px; cursor: pointer; }
+        #alphabet button:disabled { background-color: gray; cursor: not-allowed; }
+    </style>
+</head>
+<div id="navbar-container"></div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        fetch("navbar.html", { cache: "no-cache" }) // Prevents caching issues
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById("navbar-container").innerHTML = data;
+            })
+            .catch(error => console.error("Error loading navbar:", error));
+    });
+</script>
+<body>
+    <h1>Hangman Game</h1>
+    <p class="word" id="wordDisplay"></p>
+      <p><span class="label">Wrong guesses:</span> <span id="wrongGuesses"></span></p>
+      <p><span class="label">Attempts left:</span> <span id="attemptsLeft">6</span></p>
+    <div id="alphabet"></div>
+    <canvas id="hangmanCanvas" width="150" height="150"></canvas>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+    <div class="button-container">
+      <button onclick="playAgain()">Play Again</button>
+      <button onclick="goBack()">Go Back</button>
+    </div>
+    <script src="hangman.js"></script>
+</body>
+</html>
