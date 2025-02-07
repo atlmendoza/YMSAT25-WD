@@ -99,6 +99,10 @@ links[34]={section:"9Na",title:"Mobile Legends",
 	desc:"The website provides an insightful and comprehensive guide to Mobile Legends players as this will cover the best heroes, builds, and effective combos to help you climb the ranks.", 
 	url:"na-seguin_tamayo-ml/", 
 	icon:"na-seguin_tamayo-ml.png",by:"Mirkki&Josh"}	
+links[35]={section:"9Na",title:"Spill the Deej", 
+	desc:"A fun place to hang and send secret messages but could lead to more if you look deeper.", 
+	url:"na-raph_juls-deej/", 
+	icon:"na-raph_juls-deej.png",by:"Raph&Juls"}	
 	
 	
 function dispProj(){
