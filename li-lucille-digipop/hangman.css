@@ -1,0 +1,131 @@
+      @import url('https://fonts.cdnfonts.com/css/ncl-aekabih-muskey');
+      @import url('https://fonts.cdnfonts.com/css/digital-tech');
+
+html, body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'NCL Aekabih Muskey', sans-serif;
+      }
+body {
+    background-color: #FCF5C7;
+    font-family: 'NCL Aekabih Muskey', sans-serif; 
+    color: #79ADDC;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+h1 {
+    font-size: 60px;
+    color: #79ADDC;
+    font-family: 'NCL Aekabih Muskey', sans-serif; 
+}
+
+.word {
+    font-size: 40px;
+    letter-spacing: 10px;
+    color: #FFC09F;
+    font-family: 'NCL Aekabih Muskey', sans-serif;
+}
+
+footer {
+    background-color: #FFC09F;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #79ADDC;
+}
+
+#hangmanCanvas {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 50px;
+    border: 5px solid #79ADDC;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+}
+
+button {
+    margin-top: 30px;
+    margin-left:10px;
+    background-color: #ADF7B6;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid #79ADDC;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: 'NCL Aekabih Muskey', sans-serif;
+}
+
+button:hover {
+    margin-top: 30px;
+    font-family: 'NCL Aekabih Muskey', sans-serif;
+    background-color: #FFEE93;
+    border: 2px solid #79ADDC;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: -50px; 
+}
+
+
+#alphabet {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+#alphabet button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #ADF7B6;
+    border: 2px solid #79ADDC;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-family: 'NCL Aekabih Muskey', sans-serif;
+}
+
+#alphabet button:hover {
+    background-color: #FFEE93;
+    font-size: 25px;
+}
+
+#alphabet button:disabled {
+    background-color: #FCF5C7;
+    cursor: not-allowed;
+    font-size: 25px;
+}
+
+.label {
+    font-family: 'NCL Aekabih Muskey', sans-serif;
+    font-size: 1.2em;
+    color: #79ADDC;
+}
+
+#wrongGuesses {
+    font-size: 1.2em;
+    color: #79ADDC;
+    font-family: 'NCL Aekabih Muskey', sans-serif;
+}
+
+#attemptsLeft {
+    font-size: 1.2em;
+    color: #79ADDC;
+    font-family: 'NCL Aekabih Muskey', sans-serif;
+}
+

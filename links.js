@@ -91,6 +91,10 @@ links[32]={section:"9Sr",title:"Miraculous Ladybug",
 	desc:"A collection of personal opinions, images, synopses, and more about Miraculous Ladybug.", 
 	url:"https://hasherbrownie.github.io/wdprojstrontiumganpadilla/public/index.html", 
 	icon:"sr-jamie_maize-miraculous.png",by:"Jamie&Maize"}	
+links[33]={section:"9Li",title:"Digipop",
+	desc:"DigiPop is the ultimate digital playground where collectors can challenge themselves through fun mini-games to customize and unlock unique figurines like Smiskis and Mofusands, all designed by Lucille Marie Dalope and Francesca Carmen Bagnes of 9 - Lithium!", 
+	url:"li-lucille-digipop/", 
+	icon:"li-lucille-digipop.png",by:"Jamie&Maize"}	
 
 	
 function dispProj(){

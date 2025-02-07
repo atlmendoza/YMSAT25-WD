@@ -1,0 +1,59 @@
+@import url('https://fonts.cdnfonts.com/css/ncl-aekabih-muskey');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #FF9999 , #FFC09F, #FF9999);
+    font-family: 'NCL Aekabih Muskey';
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navdiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.logo a {
+    font-size: 40px;
+    font-weight: 500;
+    color: #FAF2FA;
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    color: #FAF2FA;
+    font-size: 24px;
+    font-weight: 500;
+    margin-right: 25px;
+    text-decoration: none;
+}
+

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="snake.css">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="icon" type="image" href="https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/DIGIPOP%20(1).png?v=1734939685197">
+    <title>Snake Game</title>
+</head>
+<header>
+    <div id="navbar-container"></div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch("navbar.html", { cache: "no-cache" }) // Prevents caching issues
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("navbar-container").innerHTML = data;
+                })
+                .catch(error => console.error("Error loading navbar:", error));
+        });
+    </script>
+</header>
+<body>
+    <h1>Snake Game</h1>
+    <canvas id="gameCanvas" width="400" height="400"></canvas>
+    <p>Score: <span id="score">0</span></p>
+    <div id="instructions">
+        <p>Use the arrow keys to control the snake. Try to eat the red food to grow your snake!</p>
+        <p>Avoid hitting the walls or yourself!</p>
+    </div>
+    <button id="try-again-btn" onclick="startGame()">Try Again</button>
+    <main>
+        <button onclick="goBack()">Go Back</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 DigiPop. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+    <script>
+        function claimRewards() {
+            let currentGems = parseInt(localStorage.getItem('playerGems')) || 0;
+            currentGems += 10;  // Add 10 gems for each win
+            localStorage.setItem('playerGems', currentGems);
+
+            window.location.href = 'rewards.html';  // Redirect to the rewards page
+        }
+    </script>
+    <script src="snake.js"></script>
+</body>
+</html>

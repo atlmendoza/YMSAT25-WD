@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Shop Page">
+    <meta name="author" content="Chesca Bagnes and Lucille Dalope">
+    <title>Shop - DigiPop</title>
+    <link rel="icon" type="image" href="https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/DIGIPOP%20(1).png?v=1734939685197">
+    <link rel="stylesheet" href="shop.css">
+    <link rel="stylesheet" href="navbar.css">
+</head>
+<body>
+    <header>
+        <div id="navbar-container"></div>
+    </header>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            fetch("navbar.html", { cache: "no-cache" })
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById("navbar-container").innerHTML = data;
+                })
+                .catch(error => console.error("Error loading navbar:", error));
+        });
+    </script>
+
+    <div class="gems-box gems-box-shadow">
+        Gems: <span id="gemCountShop"></span>
+    </div>
+
+    <header>
+        <h1>Welcome to the Shop!</h1>
+    </header>
+
+    <main>
+        <h2><span id="gemcountShop"></span></h2>
+
+        <section>
+            <h3>Choose Your Figurine</h3>
+            <div class="figurine-selection">
+                <label>
+                    <input type="radio" name="figurine" value="Smiski" id="smiski" onclick="updateFigurine('Smiski')"> Smiski
+                </label>
+                <label>
+                    <input type="radio" name="figurine" value="Sonny Angel" id="sonny" onclick="updateFigurine('Sonny Angel')"> Sonny Angel
+                </label>
+                <label>
+                    <input type="radio" name="figurine" value="Mofusand" id="mofusand" onclick="updateFigurine('Mofusand')"> Mofusand
+                </label>
+            </div>
+        </section>
+
+        <section>
+            <h3>Clothing Catalog</h3>
+            <div id="clothingCatalog" class="scroll-container">
+                <!-- Clothing items will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <button onclick="buyItem()">Buy Item</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 DigiPop. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        window.onload = function() {
+            let gems = parseInt(localStorage.getItem('playerGems')) || 0;
+            document.getElementById('gemCountShop').textContent = gems;
+        };
+
+        const clothingItems = {
+            "Smiski": [
+                { name: "Limited Edition: Pisay Skirt", cost: 10, img: "https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/smiski_skirt.png?v=1738858694779" },
+                { name: "Balenciova Hair Clip", cost: 15, img: "https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/smiski_clip.png?v=1738858690318https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/sonny_tiara.png?v=1738858679100" },
+                { name: "Pradé Wig", cost: 20, img: "https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/smiski_wig.png?v=1738858701884" }
+            ],
+            "Sonny Angel": [
+                { name: "Louvreton Necklace", cost: 12, img: "https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/sonny_necklace.png?v=1738858683301" },
+                { name: "Doir Dress", cost: 18, img: "https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/sonny_dress.png?v=1738858676407" },
+                { name: "Channell Tiara", cost: 8, img: "https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/sonny_tiara.png?v=1738858679100" }
+            ],
+            "Mofusand": [
+                { name: "Gutti Handbag", cost: 14, img: "https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/mofusand_bag.png?v=1738860170053" },
+                { name: "MofuSkirt", cost: 16, img: "https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/mofusand_skirt.png?v=1738860171937" },
+                { name: "Lobiton Ribbon", cost: 10, img: "https://cdn.glitch.global/cc92d4a5-369d-405a-a3a0-74560d8a6cbc/mofusand_ribbon.png?v=1738860167160" }
+                      ]
+        };
+        function updateFigurine(figurine) {
+            const catalog = document.getElementById('clothingCatalog');
+            catalog.innerHTML = '';
+
+            const selectedClothingItems = clothingItems[figurine];
+            selectedClothingItems.forEach(item => {
+                const itemDiv = document.createElement('div');
+                itemDiv.classList.add('clothing-item');
+                itemDiv.innerHTML = `
+                    <img src="${item.img}" alt="${item.name}" class="clothing-image">
+                    <span>${item.name} - ${item.cost} gems</span>
+                    <button onclick="selectItem('${item.name}', ${item.cost}, '${figurine}')">Select</button>
+                `;
+                catalog.appendChild(itemDiv);
+            });
+        }
+
+        function selectItem(itemName, itemCost, figurine) {
+            let gems = parseInt(localStorage.getItem('playerGems')) || 0;
+            if (gems >= itemCost) {
+                localStorage.setItem('selectedItem', itemName);
+                alert(`You have selected ${itemName} for ${figurine}!`);
+            } else {
+                alert('Not enough gems!');
+            }
+        }
+
+        function buyItem() {
+            let gems = parseInt(localStorage.getItem('playerGems')) || 0;
+            let selectedItem = localStorage.getItem('selectedItem');
+            const items = Object.values(clothingItems).flat();
+            let itemCost = items.find(item => item.name === selectedItem)?.cost;
+
+            if (selectedItem && itemCost && gems >= itemCost) {
+                gems -= itemCost;
+                localStorage.setItem('playerGems', gems);
+                alert(`You have bought: ${selectedItem}`);
+                localStorage.removeItem('selectedItem');
+                window.location.href = 'shop.html';
+            } else {
+                alert('You have not selected an item or don\'t have enough gems!');
+            }
+        }
+    </script>
+</body>
+</html>
+
