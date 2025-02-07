@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Which Character are You?</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="keywords" content="Modern Family Website" />
+  <meta name="description" content="The Quiz that decides which Modern Family character You embody!"/>
+  <meta name="author" content="Zachary Ezekiel Mactal and Rio O. Gatacilo Jr." />
+  <meta name="revised" content="12/23/2024" />
+  <link href="quiz.css" rel="stylesheet" type="text/css" /> 
+  <link rel="icon" href="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/9d6975f3-4a15-4d3e-968a-748270a60080.image.png?v=1735228586050" type="image/x-icon">
+  <title>Home</title>
+</head>
+<body>
+      <!-- Navigation -->
+    <div class="off-screen-menu">
+      <ul>
+        <li><a href="fam1.html">Dunphy Family</a></li>
+        <li><a href="fam2.html">Pritchett Family</a></li>
+        <li><a href="fam3.html">Tucker-Pritchett Family</a></li>
+        <li><a href="quiz.html">Which Character are You?</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </div>
+  
+    <nav>
+    <div class="ham-menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  
+    <div class="nav-title">
+      <a href="index.html"><button class="home-button">Faces of Modern Family</button></a>
+    </div>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/ModernFamily"><img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/936d263e-b726-4185-b396-69f74e9f316a.image.png?v=1734921069096" alt="Facebook"></a>
+      <a href="https://www.instagram.com/modernfamily/"><img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/a281cdae-8a30-4a0b-b869-2c8724e196bd.image.png?v=1734920955802" alt="Instagram"></a>
+      <a href="https://www.youtube.com/playlist?list=PLCsQHuMS6NowhDM_ONC0YI3Zkc-OK3qpI"><img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/2ae8f34b-2e88-43bd-a0b4-af8795a7b6dc.image.png?v=1734920883501" alt="YouTube"></a>
+      <a href="https://www.imdb.com/title/tt1442437/"><img src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/4c45ab74-0ba6-4351-b2e9-653ac4fc7bc1.image.png?v=1734923948539" alt="IMDb"></a>
+    </div>
+  </nav> <br><br>
+  
+  <section class="rectangle-audio">
+      <div class="audio-text">
+        <h2>Modern Family Intro Music!</h2>
+        <div class="rec-content">
+          <audio controls autoplay loop id="background-audio">
+  
+          <source src="https://cdn.glitch.global/0eb2c27f-34e6-46c2-a006-7af7a00ac0db/modern%20family%20all%20intros%20season%201-11.mp3?v=1734943721469" type="audio/mpeg">
+          </audio>
+        </div>
+      </div>
+  </section>
+
+  <h3>Modern Family Personality Quiz</h3>
+<form id="quiz-form">
+  <div id="quiz-container">
+    <div class="question">
+      1. I enjoy being the center of attention.
+      <div class="answer">
+        <input type="radio" name="q1" value="1"> 1 - Strongly Disagree<br>
+        <input type="radio" name="q1" value="2"> 2 - Disagree<br>
+        <input type="radio" name="q1" value="3"> 3 - Neutral<br>
+        <input type="radio" name="q1" value="4"> 4 - Agree<br>
+        <input type="radio" name="q1" value="5"> 5 - Strongly Agree
+      </div>
+    </div>
+    <div class="question">
+      2. I am very organized and detail-oriented.
+      <div class="answer">
+        <input type="radio" name="q2" value="1"> 1 - Strongly Disagree<br>
+        <input type="radio" name="q2" value="2"> 2 - Disagree<br>
+        <input type="radio" name="q2" value="3"> 3 - Neutral<br>
+        <input type="radio" name="q2" value="4"> 4 - Agree<br>
+        <input type="radio" name="q2" value="5"> 5 - Strongly Agree
+      </div>
+    </div>
+    <div class="question">
+      3. I am easily embarrassed.
+      <div class="answer">
+        <input type="radio" name="q3" value="1"> 1 - Strongly Disagree<br>
+        <input type="radio" name="q3" value="2"> 2 - Disagree<br>
+        <input type="radio" name="q3" value="3"> 3 - Neutral<br>
+        <input type="radio" name="q3" value="4"> 4 - Agree<br>
+        <input type="radio" name="q3" value="5"> 5 - Strongly Agree
+      </div>
+    </div>
+    <div class="question">
+      4. I am very competitive and driven to succeed.
+      <div class="answer">
+        <input type="radio" name="q4" value="1"> 1 - Strongly Disagree<br>
+        <input type="radio" name="q4" value="2"> 2 - Disagree<br>
+        <input type="radio" name="q4" value="3"> 3 - Neutral<br>
+        <input type="radio" name="q4" value="4"> 4 - Agree<br>
+        <input type="radio" name="q4" value="5"> 5 - Strongly Agree
+      </div>
+    </div>
+    <div class="question">
+      5. I value family traditions and holidays.
+      <div class="answer">
+        <input type="radio" name="q5" value="1"> 1 - Strongly Disagree<br>
+        <input type="radio" name="q5" value="2"> 2 - Disagree<br>
+        <input type="radio" name="q5" value="3"> 3 - Neutral<br>
+        <input type="radio" name="q5" value="4"> 4 - Agree<br>
+        <input type="radio" name="q5" value="5"> 5 - Strongly Agree
+      </div>
+    </div>
+    <div class="question">
+      6. I am a free spirit and enjoy spontaneity.
+      <div class="answer">
+        <input type="radio" name="q6" value="1"> 1 - Strongly Disagree<br>
+        <input type="radio" name="q6" value="2"> 2 - Disagree<br>
+        <input type="radio" name="q6" value="3"> 3 - Neutral<br>
+        <input type="radio" name="q6" value="4"> 4 - Agree<br>
+        <input type="radio" name="q6" value="5"> 5 - Strongly Agree
+      </div>
+    </div>
+    <div class="question">
+      7. I am very creative and imaginative.
+      <div class="answer">
+        <input type="radio" name="q7" value="1"> 1 - Strongly Disagree<br>
+        <input type="radio" name="q7" value="2"> 2 - Disagree<br>
+        <input type="radio" name="q7" value="3"> 3 - Neutral<br>
+        <input type="radio" name="q7" value="4"> 4 - Agree<br>
+        <input type="radio" name="q7" value="5"> 5 - Strongly Agree
+      </div>
+    </div>
+    <div class="question">
+      8. I am a bit of a cynic and often see the negative side of things.
+      <div class="answer">
+        <input type="radio" name="q8" value="1"> 1 - Strongly Disagree<br>
+        <input type="radio" name="q8" value="2"> 2 - Disagree<br>
+        <input type="radio" name="q8" value="3"> 3 - Neutral<br>
+        <input type="radio" name="q8" value="4"> 4 - Agree<br>
+        <input type="radio" name="q8" value="5"> 5 - Strongly Agree
+      </div>
+    </div>
+    <div class="question">
+      9. I love animals and enjoy spending time in nature.
+      <div class="answer">
+        <input type="radio" name="q9" value="1"> 1 - Strongly Disagree<br>
+        <input type="radio" name="q9" value="2"> 2 - Disagree<br>
+        <input type="radio" name="q9" value="3"> 3 - Neutral<br>
+        <input type="radio" name="q9" value="4"> 4 - Agree<br>
+        <input type="radio" name="q9" value="5"> 5 - Strongly Agree
+      </div>
+    </div>
+    <div class="question">
+      10. I am a bit of a klutz and tend to be accident-prone.
+      <div class="answer">
+        <input type="radio" name="q10" value="1"> 1 - Strongly Disagree<br>
+        <input type="radio" name="q10" value="2"> 2 - Disagree<br>
+        <input type="radio" name="q10" value="3"> 3 - Neutral<br>
+        <input type="radio" name="q10" value="4"> 4 - Agree<br>
+        <input type="radio" name="q10" value="5"> 5 - Strongly Agree
+      </div>
+    </div>
+    <div class="question">
+      11. I am very social and enjoy being around people.
+      <div class="answer">
+        <input type="radio" name="q11" value="1"> 1 - Strongly Disagree<br>
+        <input type="radio" name="q11" value="2"> 2 - Disagree<br>
+        <input type="radio" name="q11" value="3"> 3 - Neutral<br>
+        <input type="radio" name="q11" value="4"> 4 - Agree<br>
+        <input type="radio" name="q11" value="5"> 5 - Strongly Agree
+      </div>
+    </div>
+    <div class="question">
+      12. I am a good listener and enjoy helping others.
+      <div class="answer">
+        <input type="radio" name="q12" value="1"> 1 - Strongly Disagree<br>
+        <input type="radio" name="q12" value="2"> 2 - Disagree<br>
+        <input type="radio" name="q12" value="3"> 3 - Neutral<br>
+        <input type="radio" name="q12" value="4"> 4 - Agree<br>
+        <input type="radio" name="q12" value="5"> 5 - Strongly Agree
+      </div>
+    </div>
+    <div class="question">
+      13. I am very adaptable and can easily go with the flow.
+      <div class="answer">
+        <input type="radio" name="q13" value="1"> 1 - Strongly Disagree<br>
+        <input type="radio" name="q13" value="2"> 2 - Disagree<br>
+        <input type="radio" name="q13" value="3"> 3 - Neutral<br>
+        <input type="radio" name="q13" value="4"> 4 - Agree<br>
+        <input type="radio" name="q13" value="5"> 5 - Strongly Agree
+      </div>
+    </div>
+    <div class="question">
+      14. I am very sensitive and easily emotional.
+      <div class="answer">
+        <input type="radio" name="q14" value="1"> 1 - Strongly Disagree<br>
+        <input type="radio" name="q14" value="2"> 2 - Disagree<br>
+        <input type="radio" name="q14" value="3"> 3 - Neutral<br>
+        <input type="radio" name="q14" value="4"> 4 - Agree<br>
+        <input type="radio" name="q14" value="5"> 5 - Strongly Agree
+      </div>
+    </div>
+    <div class="question">
+      15. I enjoy learning and am always curious about the world.
+      <div class="answer">
+        <input type="radio" name="q15" value="1"> 1 - Strongly Disagree<br>
+        <input type="radio" name="q15" value="2"> 2 - Disagree<br>
+        <input type="radio" name="q15" value="3"> 3 - Neutral<br>
+        <input type="radio" name="q15" value="4"> 4 - Agree<br>
+        <input type="radio" name="q15" value="5"> 5 - Strongly Agree
+      </div>
+    </div>
+  </div><br>
+  
+  <div class="submit">
+    
+ <button type="submit">Submit</button>
+    </div>
+</form>
+  
+  
+  
+    <!-- Footer -->
+    <footer>
+    <p>&copy; 2024 R. Gatacilo Jr, Z. Mactal, 9 - Lithium</p>
+  </footer>
+   <script src="quiz.js"></script>
+</body>
+</html>
