@@ -87,6 +87,10 @@ links[31]={section:"9Sr",title:"Chess",
 	desc:"A website where you can play and know the history and objectives about Chess.", 
 	url:"sr-sony_panis-chess/", 
 	icon:"sr-sony_panis-chess.png",by:"Sony&Panis"}	
+links[32]={section:"9Sr",title:"Miraculous Ladybug",
+	desc:"A collection of personal opinions, images, synopses, and more about Miraculous Ladybug.", 
+	url:"https://hasherbrownie.github.io/wdprojstrontiumganpadilla/public/index.html", 
+	icon:"sr-jamie_maize-miraculous.png",by:"Jamie&Maize"}	
 
 	
 function dispProj(){
