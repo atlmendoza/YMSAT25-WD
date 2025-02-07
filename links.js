@@ -75,16 +75,18 @@ links[28]={section:"9Be",title:"DubiDubiTapTap",
 	desc:"DubiDubiTapTap is a website that contains simple, fun, and accessible offline games. “Dubi” is short for “digital buddy", 
 	url:"https://wdprojberylliumbaguioreblorasalvador.glitch.me/", 
 	icon:"iesu.png",by:"baguio&reblora&salvador"}	
-links[28]={section:"9Sr",title:"Battleship",
+links[29]={section:"9Be",title:"Chessmate",
+	desc:"Chessmate is a website that allows users to access chess-related content and play interactive chess games.", 
+	url:"https://wdprojberylliumcruzsangalang-.glitch.me/index.html", 
+	icon:"be1327.png",by:"cruz&sangalang"}	
+links[30]={section:"9Sr",title:"Battleship",
 	desc:"Welcome to Battleship! A classic game of strategy and luck, where players will try to sink each other's ships before their own ships are sunk.", 
 	url:"sr-don_rainer-battleship/", 
 	icon:"sr-don_rainer-battleship.png",by:"Don&Rainer"}	
-links[28]={section:"9Sr",title:"Chess",
+links[31]={section:"9Sr",title:"Chess",
 	desc:"A website where you can play and know the history and objectives about Chess.", 
 	url:"sr-sony_panis-chess/", 
 	icon:"sr-sony_panis-chess.png",by:"Sony&Panis"}	
-
-
 
 	
 function dispProj(){
