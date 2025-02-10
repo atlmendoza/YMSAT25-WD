@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="keywords" content = "About me, Description"/>
+  <meta nam = "description" content = "About me page and start of the tutorial"/>
+  <meta name = "author" content = "Raphael Sorino, Jules Pangcog"/>
+  <meta name = "revised" content = "December 20, 2024"/>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <link rel="icon" type="image/x-icon" href="https://cdn.glitch.global/99f58a04-b8f9-41e2-8b09-27e789f37bd0/favicon-32x32.png?v=1734708224233"/>
+</head>
+  
+   <!-- Nav Bar -->
+  <header>
+    <div class = "navBar">
+      <div class = "navLeft">
+        <img class = "icon" src="https://cdn.glitch.global/99f58a04-b8f9-41e2-8b09-27e789f37bd0/thumbnails%2FVuAcadLogo.png?1734534921321" alt = "iconOfSchool">
+        <p class = "name">
+          <a href = "index.html" style = "text-decoration: underline">Spill the Deej: the Unofficial Vu Academy Freedom Wall</a>
+        </p>
+      </div>
+      <div class = "navRight">
+        <div class = "groupNavP">
+        <p class = "navP">
+          <a href = "mainPage.html"><span onclick="tutorial()">Confessions</span></a>
+        </p>
+        <p class = "navP">
+          <a href = "archive.html"> Archives </a>
+        </p>
+        <p class = "navP">
+          <a><span onclick="showModal()" style="cursor:pointer">Admin Archives</span></a>
+        </p>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="modal modalCheckPswd">
+      <div class="modalContent">
+        <h2>
+          Please enter the password.
+        </h2>
+        <input type = "text" class="password" placeholder = "Enter password.">
+        <div class="buttonContainer">
+          <button onclick="hideModal()">Cancel</button>
+          <button onclick="checkPassword()">Submit</button>
+        </div>
+      </div>
+    </div>
+      
+    <!-- Tutorial Boxes, these start as hidden -->
+    <div class = "tutorialBoxes">
+      <div id = "start">
+        <p>
+          Start the tutorial? <span class = "click" onclick="tutorial()">YES!</span>
+        </p>
+      </div>
+      <div id = "firstBox" class = "hide">
+        <p>
+          This is the about me page of the website. Click on the text above me to go back to it in the future. <span class = "click" onclick="tutorial()">Next</span>
+        </p>
+      </div>
+      
+      <div id = "secondBox" class = "hide">
+        <p>
+          Kindly read our about me to know more about us! (Scroll down 🤭) <span class = "click" onclick="tutorial()">Next</span>
+        </p>
+      </div>
+    
+      <div id = "thirdBox" class="hide">
+        <p>
+          Thank you for reading! To access the bot, click on the confessions here ---→ 
+        </p>
+      </div>
+    </div>
+  </header>
+  
+  <!-- About content -->
+  <body class = "pageBodies">
+    <div class="contentWrapper">
+      <div id = "aboutBody">
+        <section id = "picture">
+          <img id = "authorPicture" src="https://cdn.glitch.global/fcee58f4-1794-4c7c-9ca3-ca25a695d474/animaatjes-wekkers-9316594_gif%20(350%C3%97280).gif?v=1738663207536" alt="Welcome to the Page!">
+        </section>
+        <article id = "aboutUs">
+          <p>
+            The Spill the Deej: Unofficial Vu Academy Freedom Wall Website was made by PSHS students Jules Pangcog and Raph Sorino. The website itself is inspired by 2000's gossip forum pages (think high school or even college freedom walls) with a bit of mystery like other ARG's (the main inspo for this website).</p>
+          <p>
+            The name and other things related to the website are references of the phenomenon Deja Vu. Deja Vu is the feeling of a sense of familiarity that a present situation has happened before (although may or may not actually confirm it did happen). 
+          </p>
+
+          <p>
+            Although unsuspected users can use this bot as a genuine confession bot, interesting information and outputs arise when you play around with the website... :)
+          </p>
+
+          <h4>
+            Pangcog, Sorino
+          </h4>
+        </article>
+      </div>
+    </div>
+    <script src="script.js"></script>         
+  </body> 
+
+  <footer>
+    &copy; 2025 Raphael Caleb S. & Juliana Ysabelle P.
+  </footer>
+
+</html>

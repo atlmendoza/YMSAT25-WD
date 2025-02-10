@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="keywords" content = "Bot, Main content page"/>
+  <meta nam = "description" content = "Input text to confession bot to see it in the side."/>
+  <meta name = "author" content = "Raphael Sorino, Jules Pangcog"/>
+  <meta name = "revised" content = "December 20, 2024"/>
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <link rel="icon" type="image/x-icon" href="https://cdn.glitch.global/99f58a04-b8f9-41e2-8b09-27e789f37bd0/favicon-32x32.png?v=1734708224233"/>
+</head>
+  
+  <!-- Nav Bar -->
+  <header>
+    <div class = "navBar">
+      <div class = "navLeft">
+        <img class = "icon" src="https://cdn.glitch.global/99f58a04-b8f9-41e2-8b09-27e789f37bd0/thumbnails%2FVuAcadLogo.png?1734534921321" alt = "iconOfSchool">
+        <p class = "name">
+          <a href = "index.html">Spill the Deej: the Unofficial Vu Academy Freedom Wall</a>
+        </p>
+      </div>
+      <div class = "navRight">
+        <div class = "groupNavP">
+        <p class = "navP">
+          <a href = "mainPage.html" style = "text-decoration: underline">Confessions</a>
+        </p>
+        <p class = "navP">
+          <a href = "archive.html"> Archives </a>
+        </p>
+        <p class = "navP">
+          <a><span onclick="showModal()" style="cursor:pointer">Admin Archives</span></a>
+        </p>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="modal modalCheckPswd">
+      <div class="modalContent">
+        <h2>
+          Please enter the password.
+        </h2>
+        <input type = "text" class="password" placeholder = "Enter password.">
+        <div class="buttonContainer">
+          <button onclick="hideModal()">Cancel</button>
+          <button onclick="checkPassword()">Submit</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <body onload = "setInterval('onload()', 1000)" class = "pageBodies">
+    <div  class="contentWrapper">
+      <!-- Space for the image of the bot and it's replies -->
+      <div id = "botBody">      
+        <div id = "leftSide">
+          <div id = "bot">
+            <img src="https://cdn.glitch.global/fcee58f4-1794-4c7c-9ca3-ca25a695d474/IMG_0537.gif?v=1738597147774" alt="Deej Bot Icon">
+          </div>
+          <div id = "input">
+            <form id="myForm">
+              <label>Talk to our confession bot here</label><br>
+              <input type = "text" id = "confession" placeholder = "Type Here!">
+              <input type = "submit" id = "submitButton" onclick = "newConfession(event)">
+            </form>
+          </div>
+          <div id = "response">
+        
+              <img src="https://cdn.glitch.global/fcee58f4-1794-4c7c-9ca3-ca25a695d474/IMG_0544.gif?v=1738678183102" alt="Replies" id="ReplyBot">
+          
+
+            <h3 id = "responseText">
+              Waiting for a confession...
+            </h3>
+
+          </div>
+        </div>
+
+        <!-- Tutorial Boxes, these start hidden -->
+
+        <div id="fourthBox" class="hide">
+          <p>
+            This is where you place confessions for people to see (eventually) <span class = "click" onclick="tutorial()">Next</span>
+          </p>
+        </div>
+
+        <div id="fifthBox" class="hide">
+          <p>
+            And here is where the box replies to your confessions! <span class = "click" onclick="tutorial()">Next</span>
+          </p>
+        </div>
+
+        <div id="sixthBox" class="hide">
+          <p>
+            This is where your confessions will appear! Try submitting one!
+          </p>
+        </div>
+
+        <div id="seventhBox" class="hide">
+          <p>
+            Thank you for finishing the tutorial! Be sure to listen to the confessions and confess too!
+          </p>
+        </div>
+
+        <!-- Space for the confession outputs -->
+        <div id = "rightSide">
+          <div id = "confessions">
+            <div class = "confessionSpace">
+              <p id = "first">
+
+              </p>
+            </div>
+            <div class = "confessionSpace">
+              <p id = "second">
+
+              </p>
+            </div>
+            <div class = "confessionSpace">
+              <p id = "third">
+
+              </p>
+            </div>
+            <div class = "confessionSpace">
+              <p id = "fourth">
+
+              </p>
+            </div>
+            <div class = "confessionSpace">
+              <p id = "fifth">
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body> 
+
+  <footer>
+    &copy; 2024 Raphael Caleb S.
+  </footer>
+
+</html>

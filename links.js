@@ -83,7 +83,7 @@ links[30]={section:"9Sr",title:"Battleship",
 	desc:"Welcome to Battleship! A classic game of strategy and luck, where players will try to sink each other's ships before their own ships are sunk.", 
 	url:"sr-don_rainer-battleship/", 
 	icon:"sr-don_rainer-battleship.png",by:"Don&Rainer"}	
-links[31]={section:"9Sr",title:"Chess",
+links[31]={section:"9Sr",title:"Play Chess",
 	desc:"A website where you can play and know the history and objectives about Chess.", 
 	url:"sr-sony_panis-chess/", 
 	icon:"sr-sony_panis-chess.png",by:"Sony&Panis"}	
@@ -95,11 +95,15 @@ links[33]={section:"9Li",title:"Digipop",
 	desc:"DigiPop is the ultimate digital playground where collectors can challenge themselves through fun mini-games to customize and unlock unique figurines like Smiskis and Mofusands, all designed by Lucille Marie Dalope and Francesca Carmen Bagnes of 9 - Lithium!", 
 	url:"li-lucille-digipop/", 
 	icon:"li-lucille-digipop.png",by:"Lucille&Cheska"}	
-links[34]={section:"9Li",title:"Digipop",
-	desc:"DigiPop is the ultimate digital playground where collectors can challenge themselves through fun mini-games to customize and unlock unique figurines like Smiskis and Mofusands, all designed by Lucille Marie Dalope and Francesca Carmen Bagnes of 9 - Lithium!", 
-	url:"li-lucille-digipop/", 
-	icon:"li-lucille-digipop.png",by:"Lucille&Cheska"}	
-
+links[34]={section:"9Na",title:"Mobile Legends", 
+	desc:"The website provides an insightful and comprehensive guide to Mobile Legends players as this will cover the best heroes, builds, and effective combos to help you climb the ranks.", 
+	url:"na-seguin_tamayo-ml/", 
+	icon:"na-seguin_tamayo-ml.png",by:"Mirkki&Josh"}	
+links[35]={section:"9Na",title:"Spill the Deej", 
+	desc:"A fun place to hang and send secret messages but could lead to more if you look deeper.", 
+	url:"na-raph_juls-deej/", 
+	icon:"na-raph_juls-deej.png",by:"Raph&Juls"}	
+		
 	
 function dispProj(){
 	var x;
