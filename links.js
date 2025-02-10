@@ -25,7 +25,7 @@ links[12]={section:"9Na",title:"Sinag ng Kalayaan",
 	url:"na-cara_rheena-sinag_kalayaan/",icon:"na-cara_rheena-sinag_kalayaan.png",by:"Cara&Rheena"}
 links[13]={section:"9Na",title:"Kanlungan",
 	desc:"kanlungan is a safe space 'shelter' dedicated for people who might be lost in their pathway of life. adorned in charming digital artwork and led by the fictional shapeshifting cat, Miskonasia, the website holds several little ephemeras in the daily — helpful quotes for the day with an originally written poem in the side, a post-it note station as fleeting as you allow it to be, and a bit of an 'achievements' section dictated by the amount of days you log in. ", 
-	url:"na-esquivel_villasfer-kanlungan/",icon:"na-esquivel_villasfer-kanlungan.png",by:"Elisha&Sammy"}
+	url:"na-esquivel_villasfer-kanlungan/",icon:"na-esquivel_villasfer-kanlungan.png",by:"Elisha&Joshua"}
 links[14]={section:"9K",title:"The Ciphermind",
 		desc:"PuzzledYou is our website about our own developed personality types with a theme of puzzles and word games.", 
 		url:"https://mads-avant.github.io/avante-balingit-potassium-project-draft/public/",icon:"k0204.png",by:"avante&balingit"}
@@ -94,7 +94,11 @@ links[32]={section:"9Sr",title:"Miraculous Ladybug",
 links[33]={section:"9Li",title:"Digipop",
 	desc:"DigiPop is the ultimate digital playground where collectors can challenge themselves through fun mini-games to customize and unlock unique figurines like Smiskis and Mofusands, all designed by Lucille Marie Dalope and Francesca Carmen Bagnes of 9 - Lithium!", 
 	url:"li-lucille-digipop/", 
-	icon:"li-lucille-digipop.png",by:"Jamie&Maize"}	
+	icon:"li-lucille-digipop.png",by:"Lucille&Cheska"}	
+links[34]={section:"9Li",title:"Digipop",
+	desc:"DigiPop is the ultimate digital playground where collectors can challenge themselves through fun mini-games to customize and unlock unique figurines like Smiskis and Mofusands, all designed by Lucille Marie Dalope and Francesca Carmen Bagnes of 9 - Lithium!", 
+	url:"li-lucille-digipop/", 
+	icon:"li-lucille-digipop.png",by:"Lucille&Cheska"}	
 
 	
 function dispProj(){
