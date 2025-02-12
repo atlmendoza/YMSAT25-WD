@@ -69,6 +69,9 @@ div.main {
   letter-spacing:2px;
   border-radius: 0px 0px 15px 15px; 
 }
+#shuffle {
+  z-index: 3;
+}
 
 #home {
   right: 0;
@@ -199,6 +202,19 @@ div.tgallery img {
 	color: red;
 }
 
+footer {
+  width: 100%;
+  color: white;
+  background: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  z-index: 2;
+  opacity: 0.75;
+  text-align: center;
+  margin: 0;
+}
 /* -- for responsive website */
 @media only screen and (max-width: 600px) {
   #vote img {
