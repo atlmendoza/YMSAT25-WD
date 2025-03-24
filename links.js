@@ -2,7 +2,7 @@
 var links = new Array();
 links[0]={section:"9Cs",title:"ArtWalli",desc:"Our website, ArtWalli, is an interactive website where users can either draw, design, or download their very own wallpapers.",url:"https://pih-rah-tees.github.io/wdprojcesiumpanistetangco/public",icon:"cs2328.png",by:"panis&tetangco"}
 links[1]={section:"9Cs",title:"CipherMania",desc:"Learn more about our inspirations behind this website and the concept of ciphers too! With these, inspire an interest in encrypted and decrypted communication!",url:"https://sarbuyco.github.io/Ciphermania/public",icon:"cs0711.png",by:"buyco&cruz"}
-links[2]={section:"9Cs",title:"Mindless Motivation",desc:"Mindless Motivation is a mental health website where struggling students can open as a source for emotions.",url:"https://typical-pentagonal-vessel.glitch.me/",icon:"mindless.png",by:"angeles&esguerra"}
+links[2]={section:"9Cs",title:"Mindless Motivation",desc:"Mindless Motivation is a mental health website where struggling students can open as a source for emotions.",url:"https://typical-pentagonal-vessel.glitch.me/",icon:"mindless.png",by:"Arcilla&esguerra"}
 links[3]={section:"9Cs",title:"Aklatan-Mo: Aklatan-Ko",desc:"Your gateway to a world of literature. Start reading our collection of top-rated books across various genres, from classics to bestsellers.",url:"https://geroge-real.github.io/AMAKcs/public/",icon:"aklatan.png",by:"froyalde&adriano"}
 links[4]={section:"9Cs",title:"Cherry On Top",desc:"Cherry on Top is an interactive game where users can decorate and display their own sweet treat.",url:"https://cs3-proj-cesium-luz-triguero.glitch.me/homepage.html",icon:"cherryontop.jpg",by:"luz&triguero"}
 links[5]={section:"9Cs",title:"FitFormula",desc:"FitFormula,  is designed to help users start and go through their excercise and fitness experience by providing calculation tools,  plans according to the user's fitness situation, and other pages.",url:"https://elijahandrei.github.io/Q3DimayugaMasangkayProject/public/index.html",icon:"cs1219.png",by:"dimayuga&msangkay"}
@@ -46,7 +46,7 @@ links[19]={section:"9Rb",title:"Dress the Best",
     url:"https://wdprojrubidiumhutallapuga.glitch.me/index.html",icon:"hutalla.png",by:"hutalla"}
 links[20]={section:"9Rb",title:"WindBreaker",
     desc:"WindBreaker.fandom is a fan made website engineered to bring the readers of the Wind Breaker webtoon closer to its world. ", 
-    url:"https://wdprojrubidiummaniagorequioma.glitch.me/index.html",icon:"rb1824.png",by:"edles&calitis"}
+    url:"https://wdprojrubidiummaniagorequioma.glitch.me/index.html",icon:"rb1824.png",by:"liz&raj"}
 links[21]={section:"9Rb",title:"Mystwood Mysteries",
     desc:"A mysterious game where players get to step into the shoes of a detective to solve crime cases where they will embark on three challenges levels (Easy, Medium, and Hard) and each one will make them unravel the hidden secrets and piece together cryptic clues.", 
     url:"https://mikanono21.github.io/wdprojrubidiumnonosantos/public/",icon:"rb2127.png",by:"santos&nono"}
